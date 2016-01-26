@@ -1,0 +1,20 @@
+import sys
+from pyspark import SparkContext
+from main import main_func
+ 
+shared_dict = None
+
+if __name__ == "__main__":
+    sc = SparkContext(appName="Co-occurrence")
+    
+    url_dict = {}     
+    f = open("Data/object_mappings.sort", "r")
+    for line in f:
+        line = line.strip()
+        idx = line.find(" ")
+        url_id = int(line[:idx])
+        url = line[idx+1:].rstrip()
+        url_dict[url] = url_id
+    f.close()
+    rdd = sc.textFile("file:///Users/liucancheng/Documents/spark/exam/Data/wc.txt")#wc_day91_1.txt")
+    main_func(sc, rdd, url_dict)
