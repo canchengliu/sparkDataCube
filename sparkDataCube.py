@@ -16,10 +16,10 @@ from pyspark import SparkContext
 
 
 batch_dict = {}
-batch_dict['234567'] = 6
-batch_dict['23567'] = 3
-batch_dict['2567'] = 3
-batch_dict['567'] = 3
+batch_dict['2 3 4 5 6 7'] = 6
+batch_dict['2 3 5 6 7'] = 3
+batch_dict['2 5 6 7'] = 3
+batch_dict['5 6 7'] = 3
 
 # -- get C --
 def seq(start, end):
@@ -28,6 +28,30 @@ def seq(start, end):
 def getC():
 	return [a + b for a, b in product(seq(2, 4), seq(5, 7))]
 # -- get C --
+
+li = ['1', '2', '3', '4']
+def comb(li):
+	coms = []
+	str_coms = []
+	sort_coms = []
+	for n in range(1, len(li) + 1):
+		coms.extend(itertools.combinations(li, n))
+
+	for c in coms:
+		str_coms.append(' '.join(list(c)))
+
+	sort_str_com = sorted(str_coms)
+	print sort_str_com
+	for s in sort_str_com:
+		sort_coms.append(s.split())
+
+	print sort_coms
+
+
+
+		
+	pass
+
 
 # -- navie_mapper --
 def navie_mapper(line): # line: line record
@@ -50,66 +74,49 @@ def batch_mapper(line):
 	batch_id = 0 # can set a batch_id:batch_len dictionary to broadcast
 	for R in C:
 		k = [data[i] for i in R[0]]
-		key = ' '.join([str(i) for i in R[0]])+'|'+' '.join(k)
+		record = ' '.join([str(i) for i in R[0]])+'|'+' '.join(k)
 		batch_len = len(R)
 		uid = data[1]
-		value = "%s\t%s" % (key, uid)
+		value = "%s\t%s" % (record, uid)
 		yield (str(batch_id), value)
 		batch_id += 1
 # -- batch_mapper --
 
 
+
 # -- top_down --
 def top_down(data):
 	global batch_dict
+	uidset = {}
+	lastkey = ['0','0','0','0','0','0','0','0','0']
+
 	sort_data = sorted(data)
 	batch_len = batch_dict[sort_data[0].split('|')[0]]
-	
-	for line in sort_data:
-		
 
+	for line in sort_data: # line : {region}|{group}\t{uid}
+		record, uid = line.split('\t')
+		region, group = record.split('|')
+		region_list = region.split()
+		group_list = group.split()
+		region_len = len(region_list)
 
-
-
-		s = line.split('\t')
-		rvalue = s[0] #|parition|.|record_segment|
-		uid = s[1].split() #[|ID|, |batch_len|] 
-		ids = uid[0] #|ID|
-		batch_len = int(uid[1]) #int(|batch_len|)
-		if lastbatch_len == 0:
-			lastbatch_len = batch_len
-		if lastbatch_len != batch_len: #batch_len changed and not the first => flag = 1
-			flag = 1
-			lastbatch_len = batch_len
-		rvalue = rvalue.split('|') # [|parition|.|region|, |group|]
-		temp = rvalue[0].split('.') # [|parition|, |region|]
-		region = temp[1].split() # reigon_list
-		group  = rvalue[1].split() # group_list
-		r_len = len(region) # region_len
-		while batch_len != 0:
-			s = ' '.join(region[0:r_len]) + '|' + ' '.join(group[0:r_len])
-			if uidset.get(s,'none') == 'none':
+		for cur_len in range(batch_len, 0, -1): # [batch_len, 0) reverse
+			s = ' '.join(region_list[0:region_len]) + '|' + ' '.join(group_list[0:region_len])
+			if s not in uidset:
 				uidset[s] = set()
-			uidset[s].add(ids) # group s add an id_list
-			if lastkey[batch_len] == 0: # the first record of different region within the batch
-				lastkey[batch_len] = s
-			if lastkey[batch_len] != s: # group change
-				uidstr = ' '.join(uidset[lastkey[batch_len]])
-				if flag == 0: # the same batch
-					print "%s\t%s" % (lastkey[batch_len], uidstr)
-				else:
-					pass
-				uidset.pop(lastkey[batch_len])
-				lastkey[batch_len] = s
-			batch_len = batch_len - 1
-			r_len = r_len - 1
-		flag = 0
-	for i in range(1,lastbatch_len+1):
+			uidset[s].add(uid)
+			if lastkey[cur_len] == '0':
+				lastkey[cur_len] = s
+			if lastkey[cur_len] != s:
+				uidstr = ' '.join(uidset[lastkey[cur_len]])
+				yield "%s\t%s" % (lastkey[cur_len], uidstr)
+				uidset.pop(lastkey[cur_len])
+				lastkey[cur_len] = s
+			region_len -= 1
+
+	for i in range(batch_len, 0, -1):
 		uidstr = ' '.join(uidset[lastkey[i]])
-		print "%s\t%s" % (lastkey[i], uidstr)
-
-
-	
+		yield "%s\t%s" % (lastkey[i], uidstr)
 # -- top_down --
 
 
@@ -117,6 +124,7 @@ def top_down(data):
 # -- navie_reducer --
 def navie_reducer(data):
 	pass
+# -- navie_reducer --
 
 def main_func(sc, rdd):
 	cnt1 = rdd.count()
@@ -129,9 +137,7 @@ def main_func(sc, rdd):
 	
 	#tmp = rdd.flatMap(batch_mapper).collect()
 
-	rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
-
-
+	tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
 	print tmp
 
 # -- navie_reducer --
