@@ -40,7 +40,7 @@ for line in sys.stdin:
             lastkey[batch_len] = s
         if lastkey[batch_len] != s: # group change
             uidstr = ' '.join(uidset[lastkey[batch_len]])
-            if flag == 0:
+            if flag == 0: # the same batch
                 print "%s\t%s" % (lastkey[batch_len], uidstr)
             else:
                 pass

@@ -30,27 +30,20 @@ def getC():
 # -- get C --
 
 li = ['1', '2', '3', '4']
+
 def comb(li):
 	coms = []
 	str_coms = []
 	sort_coms = []
 	for n in range(1, len(li) + 1):
 		coms.extend(itertools.combinations(li, n))
-
 	for c in coms:
 		str_coms.append(' '.join(list(c)))
-
 	sort_str_com = sorted(str_coms)
-	print sort_str_com
 	for s in sort_str_com:
 		sort_coms.append(s.split())
-
 	print sort_coms
 
-
-
-		
-	pass
 
 
 # -- navie_mapper --

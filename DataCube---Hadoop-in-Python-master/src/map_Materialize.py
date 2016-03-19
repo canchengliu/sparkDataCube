@@ -38,3 +38,12 @@ def BinarySearch(array, target):
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
