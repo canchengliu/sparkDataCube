@@ -1,0 +1,32 @@
+User Image Table
+
+UserID
+UserName
+Sex
+Age
+country
+Province
+City
+FavoriteCategory
+FavoriteProduct
+Year_visit
+Year_buy
+
+
+Product Information Table
+
+ProductID
+Category
+Subcategory
+Product
+sales
+
+
+Sale Amount Table
+
+Record_ID
+Year
+Month
+Day
+Holiday
+Sale

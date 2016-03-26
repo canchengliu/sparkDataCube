@@ -13,6 +13,9 @@ import random
 import math
 from itertools import product
 from itertools import combinations
+import sys
+import getopt
+from pyspark import SparkContext
 
 
 # -- get C --
@@ -28,6 +31,7 @@ def all_combinations(li):
 		for c in combinations(li, size):
 			res.append(list(c))		
 	return res
+
 
 # -- get C 2--
 def get_all_regions(hierarchy_col, common_col):
@@ -185,23 +189,43 @@ def navie_reducer(data):
 	pass
 # -- navie_reducer --
 
-def main_func(sc, rdd):
-	print "!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!!!!!!"
-	print __name__
-	if __name__ == '__main__':
-		print "@@@@@@@@@@@\n@@@@@@@@@@@@@@\n@@@@@@@@@\n@@@@@@@@@@@@"
-		hierarchy_col = [(1, 2)]
-		common_col = [3, 4]
-		value_col = [5, 6]
-		id_col = 0
-		global shared_batch_dict
-		global shared_batch
-		batch = get_C(hierarchy_col, common_col)
-		batch_dict = get_batch_len(batch)
-		shared_batch = sc.broadcast(batch)
-		shared_batch_dict = sc.broadcast(batch_dict)
-	print "^^^^^^^^^^^^^^^^^^^\n^^^^^^^^^^^^\n^^^^^^^^^^^^^^^^^^^^^^^^\n^^^^^^^^^^^^^"
+def broadcast_batch(hierarchy_col, common_col):
+	global shared_batch_dict
+	global shared_batch
+	batch = get_C(hierarchy_col, common_col)
+	batch_dict = get_batch_len(batch)
+	shared_batch = sc.broadcast(batch)
+	shared_batch_dict = sc.broadcast(batch_dict)
 
+def deal_opt(argv):
+	hierarchy_col = []
+	common_col = []
+	value_col = []
+	id_col = 0
+	usage = 'Usage: spark-submit main.py -l <hierarchy_col>\n\t\t\t-c <common_col>\n\t\t\t-v <value_col>\n\t\t\t -i <id_col>\n eg: spark-submit main.py -l 1,2,,3,4 -c 5,6,7 -v 8,9 -i 0'
+	try:
+		opts, args = getopt.getopt(argv, 'hl:c:v:i:')
+	except getopt.GetoptError:
+		print usage
+		sys.exit(2)
+	for opt, arg in opts:
+		if opt == '-h':
+			print usage
+			sys.exit(1)
+		elif opt == '-l':
+			hierarchy_col = [(int(t.split(',')[0]), int(t.split(',')[1])) for t in arg.split(',,')]
+		elif opt == '-c':
+			common_col = [int(t) for t in arg.split(',')]
+		elif opt == '-v':
+			value_col = [int(t) for t in arg.split(',')]
+		elif opt == '-i':
+			id_col = int(arg)
+	return hierarchy_col, common_col, value_col, id_col
+
+def main_func(sc, rdd, argv):
+	hierarchy_col, common_col, value_col, id_col = deal_opt(argv)
+	if __name__ == '__main__':
+		broadcast_batch(hierarchy_col, common_col)
 	cnt1 = rdd.count()
 	cnt2 = rdd.flatMap(navie_mapper).count()
 	print "&&&&&&&&%d&&&&&&%d&&&&&&&&&&" % (cnt1, cnt2)
@@ -217,16 +241,17 @@ def main_func(sc, rdd):
 	print tmp
 
 
-import sys
-#from main import main_func
-from pyspark import SparkContext
+#python test.py -l 1,2,,3,4 -c 5,6,7 -v 8,9 -i 0
+#spark-submit main.py -l 1,2 -c 3,4 -v 5,6 -i 0
+
 
 # -- navie_reducer --
 if __name__ == "__main__":
+	print __name__
 	print "#####################################"
 	sc = SparkContext(appName="Co-occurrence")
 	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/test.txt")
-	main_func(sc, rdd)
+	main_func(sc, rdd, sys.argv[1:])
 	print "888888888888888888888888888888888888888888888888888888888888888888888888888888888888888"
 
 
