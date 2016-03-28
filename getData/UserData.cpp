@@ -149,8 +149,8 @@ int main(int argc, char *argv[])
         outfile << i + 1 << " " << userid << " " << country << " " << province << " " << city << " " 
                 << category << " " << subcategory << " " << visit << " " << buy << endl;
 */
-        outfile << i + 1 << "\t" << userid << "\t" << sex << "\t" << name << "\t" << country << "\t" << province << "\t" << city << "\t" 
-                << category << "\t" << subcategory << "\t" << visit / 100 << "\t" << buy << endl;
+        outfile << i + 1 << ' ' << userid << ' ' << name << ' ' << sex << ' ' << country << ' ' << province << ' ' << city << ' ' 
+                << category << ' ' << subcategory << ' ' << visit / 500 << ' ' << buy / 10 << endl;
         name = "";
     }
     outfile.close();

@@ -16,7 +16,7 @@ from itertools import combinations
 import sys
 import getopt
 from pyspark import SparkContext
-
+from insert_db import insert_db
 
 # -- get C --
 def seq(start, end):
@@ -36,21 +36,25 @@ def all_combinations(li):
 # -- get C 2--
 def get_all_regions(hierarchy_col, common_col):
 	if len(hierarchy_col) == 0:
-		return common_col
+		return all_combinations(common_col)
 	pre_tup = seq(hierarchy_col[0][0], hierarchy_col[0][1])
 	for tup in hierarchy_col[1:]:
 		pre_tup = [a + b for a, b in product(pre_tup, seq(tup[0], tup[1]))]
-	print pre_tup
+	if len(common_col) == 0:
+		return pre_tup
 	common_list =  all_combinations(common_col)# all common column combinations
-	print common_list
 	res = [a + b for a, b in product(pre_tup, common_list)]
 	res.sort()
 	return res
 
 def get_C(hierarchy_col, common_col):
 	region = get_all_regions(hierarchy_col, common_col)
-	m = max(common_col) # column
-	mb = max([max(hc) for hc in hierarchy_col])
+	m = 0
+	mb = 0
+	if len(common_col) != 0:
+		m = max(common_col) # column
+	if len(hierarchy_col) != 0:
+		mb = max([max(hc) for hc in hierarchy_col])
 	if mb > m:
 		m = mb
 	l = len(region) # row
@@ -80,6 +84,7 @@ def get_C(hierarchy_col, common_col):
 			tmp = [sr]
 		pre = sr
 	batch.append(tmp)
+	print batch
 	return batch
 
 def get_batch_len(batch):
@@ -125,12 +130,6 @@ def navie_mapper(line): # line: line record
 
 # -- batch_mapper --
 def batch_mapper(line):
-	print __name__
-	hierarchy_col = [(1, 2)]
-	common_col = [3, 4]
-	value_col = [5, 6]
-	id_col = 0
-
 	data = line.strip().split()
 	#C = [[[2, 3, 4, 5, 6, 7], [2, 3, 4, 5, 6], [2, 3, 4, 5], [2, 3, 4], [2, 3], [2]], [[2, 3, 5, 6, 7], [2, 3, 5, 6], [2, 3, 5]], [[2, 5, 6, 7], [2, 5, 6], [2, 5]], [[5, 6, 7], [5, 6], [5]]]
 	#C = getC_2(hierarchy_col, common_col)
@@ -139,8 +138,9 @@ def batch_mapper(line):
 		k = [data[i] for i in R[0]]
 		record = ' '.join([str(i) for i in R[0]])+'|'+' '.join(k)
 		batch_len = len(R)
-		uid = data[1]
-		value = "%s\t%s" % (record, uid)
+		uid = data[shared_id_col.value]
+		value_col = [data[vc] for vc in shared_value_col.value]
+		value = "%s\t%s_%s" % (record, uid, ' '.join(value_col))
 		yield (str(batch_id), value)
 		batch_id += 1
 # -- batch_mapper --
@@ -151,37 +151,55 @@ def batch_mapper(line):
 
 # -- top_down --
 def top_down(data):
-	uidset = {}
-	lastkey = ['0','0','0','0','0','0','0','0','0']
-
 	sort_data = sorted(data)
 	#batch_len = batch_dict[]
-	batch_len = shared_batch_dict.value[sort_data[0].split('|')[0]]
 
-	for line in sort_data: # line : {region}|{group}\t{uid}
-		record, uid = line.split('\t')
+	batch_len = shared_batch_dict.value[sort_data[0].split('|')[0]]
+	uidset = {}
+	valueset = {} # sum(value) 
+	lastkey = ['0'] * (batch_len + 1)
+	for line in sort_data: # line : {region}|{group}\t{uid}|{value}
+		record, uid_value = line.split('\t')
 		region, group = record.split('|')
 		region_list = region.split()
 		group_list = group.split()
 		region_len = len(region_list)
+		uid, value = uid_value.split('_')
+
 
 		for cur_len in range(batch_len, 0, -1): # [batch_len, 0) reverse
 			s = ' '.join(region_list[0:region_len]) + '|' + ' '.join(group_list[0:region_len])
 			if s not in uidset:
 				uidset[s] = set()
+				valueset[s] = set()
 			uidset[s].add(uid)
+			valueset[s].add(value)
 			if lastkey[cur_len] == '0':
 				lastkey[cur_len] = s
 			if lastkey[cur_len] != s:
-				uidstr = ' '.join(uidset[lastkey[cur_len]])
-				yield "%s\t%s" % (lastkey[cur_len], uidstr)
+				#uidstr = ' '.join(uidset[lastkey[cur_len]])
+				#valuestr = ' '.join(valueset[lastkey[cur_len]])
+				#yield "%s\t%s|%s" % (lastkey[cur_len], uidstr, valuestr)
+				vv = [[float(v) for v in vs.split()] for vs in valueset[lastkey[cur_len]]]
+				vv_t = map(list, zip(*vv)) # transform
+				v_sum = [str(sum(vt)) for vt in vv_t]
+				valuestr = ' '.join(v_sum)
+				yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+				post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+				insert_db(shared_table.value, post)
 				uidset.pop(lastkey[cur_len])
+				valueset.pop(lastkey[cur_len])
 				lastkey[cur_len] = s
 			region_len -= 1
 
 	for i in range(batch_len, 0, -1):
-		uidstr = ' '.join(uidset[lastkey[i]])
-		yield "%s\t%s" % (lastkey[i], uidstr)
+		vv = [[float(v) for v in vs.split()] for vs in valueset[lastkey[cur_len]]]
+		vv_t = map(list, zip(*vv)) # transform
+		v_sum = [str(sum(vt)) for vt in vv_t]
+		valuestr = ' '.join(v_sum)
+		yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+		post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+		insert_db(shared_table.value, post)
 # -- top_down --
 
 # -- navie_reducer --
@@ -189,22 +207,30 @@ def navie_reducer(data):
 	pass
 # -- navie_reducer --
 
-def broadcast_batch(hierarchy_col, common_col):
+def broadcast_var(table, hierarchy_col, common_col, value_col, id_col):
+	global shared_table
 	global shared_batch_dict
 	global shared_batch
+	global shared_value_col
+	global shared_id_col	
 	batch = get_C(hierarchy_col, common_col)
 	batch_dict = get_batch_len(batch)
+	shared_table = sc.broadcast(table)
 	shared_batch = sc.broadcast(batch)
 	shared_batch_dict = sc.broadcast(batch_dict)
+	shared_value_col = sc.broadcast(value_col)
+	shared_id_col = sc.broadcast(id_col)
+
 
 def deal_opt(argv):
+	table = ''
 	hierarchy_col = []
 	common_col = []
 	value_col = []
 	id_col = 0
-	usage = 'Usage: spark-submit main.py -l <hierarchy_col>\n\t\t\t-c <common_col>\n\t\t\t-v <value_col>\n\t\t\t -i <id_col>\n eg: spark-submit main.py -l 1,2,,3,4 -c 5,6,7 -v 8,9 -i 0'
+	usage = 'Usage: spark-submit main.py -t <table_name>\n\t\t\t -l <hierarchy_col>\n\t\t\t-c <common_col>\n\t\t\t-v <value_col>\n\t\t\t -i <id_col>\n eg: spark-submit main.py -l 1,2,,3,4 -c 5,6,7 -v 8,9 -i 0'
 	try:
-		opts, args = getopt.getopt(argv, 'hl:c:v:i:')
+		opts, args = getopt.getopt(argv, 'ht:l:c:v:i:')
 	except getopt.GetoptError:
 		print usage
 		sys.exit(2)
@@ -212,6 +238,8 @@ def deal_opt(argv):
 		if opt == '-h':
 			print usage
 			sys.exit(1)
+		elif opt == '-t':
+			table = arg
 		elif opt == '-l':
 			hierarchy_col = [(int(t.split(',')[0]), int(t.split(',')[1])) for t in arg.split(',,')]
 		elif opt == '-c':
@@ -220,12 +248,13 @@ def deal_opt(argv):
 			value_col = [int(t) for t in arg.split(',')]
 		elif opt == '-i':
 			id_col = int(arg)
-	return hierarchy_col, common_col, value_col, id_col
+	return table, hierarchy_col, common_col, value_col, id_col
 
-def main_func(sc, rdd, argv):
-	hierarchy_col, common_col, value_col, id_col = deal_opt(argv)
+def main_func(sc, argv):
+	table, hierarchy_col, common_col, value_col, id_col = deal_opt(argv)
 	if __name__ == '__main__':
-		broadcast_batch(hierarchy_col, common_col)
+		broadcast_var(table, hierarchy_col, common_col, value_col, id_col)
+	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/getData/" + table + "_100.txt")
 	cnt1 = rdd.count()
 	cnt2 = rdd.flatMap(navie_mapper).count()
 	print "&&&&&&&&%d&&&&&&%d&&&&&&&&&&" % (cnt1, cnt2)
@@ -247,11 +276,9 @@ def main_func(sc, rdd, argv):
 
 # -- navie_reducer --
 if __name__ == "__main__":
-	print __name__
 	print "#####################################"
-	sc = SparkContext(appName="Co-occurrence")
-	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/test.txt")
-	main_func(sc, rdd, sys.argv[1:])
+	sc = SparkContext(appName="Co-occurrence")	
+	main_func(sc, sys.argv[1:])
 	print "888888888888888888888888888888888888888888888888888888888888888888888888888888888888888"
 
 

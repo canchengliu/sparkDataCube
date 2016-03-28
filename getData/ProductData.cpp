@@ -123,12 +123,12 @@ int main(int argc, char *argv[])
         subcategory = uniform((category - 1) * 20 + 1, (category - 1) * 20 + 20);
         product = uniform((category - 1) * 2000 + 1, (category - 1) * 2000 + 2000);
         
-        sales = uniform2(sales_min, sales_max);
+        sales = uniform(sales_min, sales_max);
 /*      
         outfile << i + 1 << " " << productid << " " << country << " " << state << " " << city << " " 
                 << category << " " << subcategory << " " << product << " " << sales << endl;
 */
-        outfile << i + 1 << "\t" << productid << "\t" << category << "\t" << subcategory << "\t" << product 
+        outfile << i + 1 << "\t" << productid << "\t" << category << "\t" << subcategory << "\t" << product / 20.0
                 << "\t" << sales << endl;
     }
     outfile.close();
