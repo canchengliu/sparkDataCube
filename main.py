@@ -151,6 +151,9 @@ def batch_mapper(line):
 
 # -- top_down --
 def top_down(data):
+	#v_col = [shared_id_col.value].extend(shared_value_col.value)
+	#v_col = shared_value_col.value
+	#v_col.append(0)
 	sort_data = sorted(data)
 	#batch_len = batch_dict[]
 
@@ -165,7 +168,6 @@ def top_down(data):
 		group_list = group.split()
 		region_len = len(region_list)
 		uid, value = uid_value.split('_')
-
 
 		for cur_len in range(batch_len, 0, -1): # [batch_len, 0) reverse
 			s = ' '.join(region_list[0:region_len]) + '|' + ' '.join(group_list[0:region_len])
@@ -186,7 +188,7 @@ def top_down(data):
 				valuestr = ' '.join(v_sum)
 				yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 				post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
-				insert_db(shared_table.value, post)
+				#insert_db(shared_table.value, post, v_col)
 				uidset.pop(lastkey[cur_len])
 				valueset.pop(lastkey[cur_len])
 				lastkey[cur_len] = s
@@ -199,7 +201,7 @@ def top_down(data):
 		valuestr = ' '.join(v_sum)
 		yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 		post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
-		insert_db(shared_table.value, post)
+		#insert_db(shared_table.value, post, v_col)
 # -- top_down --
 
 # -- navie_reducer --
@@ -256,8 +258,8 @@ def main_func(sc, argv):
 		broadcast_var(table, hierarchy_col, common_col, value_col, id_col)
 	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/getData/" + table + "_100.txt")
 	cnt1 = rdd.count()
-	cnt2 = rdd.flatMap(navie_mapper).count()
-	print "&&&&&&&&%d&&&&&&%d&&&&&&&&&&" % (cnt1, cnt2)
+	#cnt2 = rdd.flatMap(navie_mapper).count()
+	#print "&&&&&&&&%d&&&&&&%d&&&&&&&&&&" % (cnt1, cnt2)
 	#Sometimes we need a sample of our data in our driver program. The takeSample(withReplacement, num, seed) function allows us to take a sample of our data either with or without replacement.
 	# Keep in mind that your entire dataset must fit in memory on a single machine to use collect() on it, so collect() shouldn’t be used on large datasets.
 	# tmp = rdd.flatMap(navie_mapper).groupByKey().collect()
@@ -265,9 +267,9 @@ def main_func(sc, argv):
 	
 	#tmp = rdd.flatMap(batch_mapper).collect()
 
-	tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
 	#tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
-	print tmp
+	#tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
+	#print tmp
 
 
 #python test.py -l 1,2,,3,4 -c 5,6,7 -v 8,9 -i 0
