@@ -16,6 +16,7 @@ from itertools import combinations
 import sys
 import getopt
 from pyspark import SparkContext
+from db_insert import db_insert
 
 # -- get C --
 def seq(start, end):
@@ -186,7 +187,7 @@ def top_down(data):
 				valuestr = ' '.join(v_sum)
 				yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 				#post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
-				#insert_db(shared_table.value, post, v_col)
+				#db_insert(shared_table.value, post, v_col)
 				uidset.pop(lastkey[cur_len])
 				valueset.pop(lastkey[cur_len])
 				lastkey[cur_len] = s
@@ -199,7 +200,7 @@ def top_down(data):
 		valuestr = ' '.join(v_sum)
 		yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 		#post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
-		#insert_db(shared_table.value, post, v_col)
+		#db_insert(shared_table.value, post, v_col)
 # -- top_down --
 
 # -- navie_reducer --
@@ -254,7 +255,7 @@ def main_func(sc, argv):
 	table, hierarchy_col, common_col, value_col, id_col = deal_opt(argv)
 	if __name__ == '__main__':
 		broadcast_var(table, hierarchy_col, common_col, value_col, id_col)
-	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/Data/" + table + "_100.txt")
+	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/data/data/" + table + "_100.txt")
 	#cnt1 = rdd.count()
 	#cnt2 = rdd.flatMap(navie_mapper).count()
 	#print "&&&&&&&&%d&&&&&&%d&&&&&&&&&&" % (cnt1, cnt2)
@@ -266,9 +267,10 @@ def main_func(sc, argv):
 	#tmp = rdd.flatMap(batch_mapper).collect()
 
 	#tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
-	rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).values().saveAsTextFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/Data/userTable") 
+	#rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).values().saveAsTextFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/Data/userTable") 
+	post_list = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).values().collect()
 
-	#insert_db(shared_table.value, post_list)
+	db_insert(shared_table.value, post_list)
 	#print tmp
 
 
