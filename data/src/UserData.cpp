@@ -80,7 +80,7 @@ int categoryGenerate()
 
 int main(int argc, char *argv[]) 
 {
-    char filename[100] = "userTable_";
+    char filename[100] = "data/userTable_";
 	int fnlen = strlen(filename);
 
     srand(time(NULL));

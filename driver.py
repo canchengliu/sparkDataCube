@@ -14,11 +14,23 @@ def getTableInfo(table):
 	common_col = info_tbl.find_one({'table_name': table})['common_col']
 	value_col = info_tbl.find_one({'table_name': table})['value_col']
 	id_col = info_tbl.find_one({'table_name': table})['id_col']
+	#delete the old data cube of table
+	tdb[table].remove({})
 	return hierarchy_col, common_col, value_col, id_col
 
 if __name__ == '__main__':
 	table = sys.argv[1]
 	h, c, v, i = getTableInfo(table)
-	ss = 'spark-submit main.py -t %s -l %s -c %s -v %s -i %s' % (table, h, c, v, i)
+	opt = ''
+	if (len(h) > 0):
+		opt += ' -l ' + h 
+	if (len(c) > 0):
+		opt += ' -c ' + c
+	if (len(v) > 0):
+		opt += ' -v ' + v
+	if (len(i) > 0):
+		opt += ' -i ' + i
+	ss = 'spark-submit main.py -t ' + table + opt
+	print ss
 	os.system(ss)
 

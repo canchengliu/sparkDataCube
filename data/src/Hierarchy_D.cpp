@@ -80,7 +80,7 @@ int topicGenerate()
 
 int main(int argc, char *argv[]) 
 {
-    char filename[100] = "Hierarchy_d2D_";
+    char filename[100] = "data/Hierarchy_d2D_";
 	int fnlen = strlen(filename);
 
     srand(time(NULL));

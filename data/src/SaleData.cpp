@@ -80,7 +80,7 @@ int categoryGenerate()
 
 int main(int argc, char *argv[]) 
 {
-    char filename[100] = "saleTable_";
+    char filename[100] = "data/saleTable_";
     int fnlen = strlen(filename);
 
     srand(time(NULL));
@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
         outfile << i + 1 << " " << productid << " " << year << " " << month << " " << day << " " 
                 << category << " " << subcategory << " " << product << " " << sales << endl;
 */
-        outfile << i + 1 << "\t" << productid << "\t" << year << "\t" << month << "\t" << day 
+        outfile << i + 1 << "\t" << year << "\t" << month << "\t" << day 
                 << "\t" << sales << endl;
     }
     outfile.close();
