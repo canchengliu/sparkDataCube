@@ -22,7 +22,7 @@ def changeType(data):
 		res = data
 	return res
 
-def insert_db(table, p_list):	
+def db_insert(table, p_list):	
 	client = pymongo.MongoClient('localhost', 27017)
 	tdb = client.testdb
 	info_tbl = tdb.tableinfo
@@ -46,7 +46,7 @@ def insert_db(table, p_list):
 
 '''
 
-def insert_db(table, post_list):
+def db_insert(table, post_list):
 	client = pymongo.MongoClient('localhost',27017)
 	tdb = client.testdb
 	insert_tbl = tdb[table]

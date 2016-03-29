@@ -1,0 +1,25 @@
+0 rid:记录ID ［忽略字段］
+1 user_iD:用户ID ［ID字段］
+2 user_name:用户名，用户昵称 ［忽略字段］
+3 sex:用户性别(0代表男性，1代表女性) ［普通字段］
+4 country:用户居住国家 ［层级A字段］
+5 province:用户居住省份市 ［层级A字段］
+6 city:用户居住城市 ［层级A字段］
+7 favorite_category:最喜欢的商品类目 ［层级B字段］
+8 favorite_product:最喜欢的商品(限定为最喜欢的商品类目下的商品) ［层级B字段］
+9 month_visit:平均每年在该网站上购物消费总金额(元) ［度量字段］
+10 month_buy:平均每年在该网站上购物消费总金额(元) ［度量字段］
+
+
+0 rid:记录ID ［忽略字段］
+1 productID:商品ID ［ID字段］
+2 category:商品所属一级类目 ［层级A字段］
+3 subcategory:商品所属二级类目 ［层级A字段］
+4 price:商品定价(元) ［度量字段］
+5 sales:商品月销量(件) ［度量字段］
+
+0 rid:记录ID ［忽略字段］
+1 year:年份 ［层级A字段］ 
+2 month:月份 ［层级A字段］ 
+3 day:日期 ［层级A字段］ 
+4 sales:该网站单日销量交易额(万元) ［度量字段］ 
