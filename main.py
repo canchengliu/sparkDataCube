@@ -16,7 +16,6 @@ from itertools import combinations
 import sys
 import getopt
 from pyspark import SparkContext
-from insert_db import insert_db
 
 # -- get C --
 def seq(start, end):
@@ -151,7 +150,6 @@ def batch_mapper(line):
 
 # -- top_down --
 def top_down(data):
-	#v_col = [shared_id_col.value].extend(shared_value_col.value)
 	#v_col = shared_value_col.value
 	#v_col.append(0)
 	sort_data = sorted(data)
@@ -187,7 +185,7 @@ def top_down(data):
 				v_sum = [str(sum(vt)) for vt in vv_t]
 				valuestr = ' '.join(v_sum)
 				yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
-				post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+				#post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 				#insert_db(shared_table.value, post, v_col)
 				uidset.pop(lastkey[cur_len])
 				valueset.pop(lastkey[cur_len])
@@ -200,7 +198,7 @@ def top_down(data):
 		v_sum = [str(sum(vt)) for vt in vv_t]
 		valuestr = ' '.join(v_sum)
 		yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
-		post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+		#post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 		#insert_db(shared_table.value, post, v_col)
 # -- top_down --
 
@@ -256,19 +254,21 @@ def main_func(sc, argv):
 	table, hierarchy_col, common_col, value_col, id_col = deal_opt(argv)
 	if __name__ == '__main__':
 		broadcast_var(table, hierarchy_col, common_col, value_col, id_col)
-	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/getData/" + table + "_100.txt")
-	cnt1 = rdd.count()
+	rdd = sc.textFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/Data/" + table + "_100.txt")
+	#cnt1 = rdd.count()
 	#cnt2 = rdd.flatMap(navie_mapper).count()
 	#print "&&&&&&&&%d&&&&&&%d&&&&&&&&&&" % (cnt1, cnt2)
 	#Sometimes we need a sample of our data in our driver program. The takeSample(withReplacement, num, seed) function allows us to take a sample of our data either with or without replacement.
 	# Keep in mind that your entire dataset must fit in memory on a single machine to use collect() on it, so collect() shouldn’t be used on large datasets.
-	# tmp = rdd.flatMap(navie_mapper).groupByKey().collect()
-	# visits = map((lambda (x,y): (x, set(y))), tmp)
+	#tmp = rdd.flatMap(navie_mapper).groupByKey().collect()
+	#visits = map((lambda (x,y): (x, set(y))), tmp)
 	
 	#tmp = rdd.flatMap(batch_mapper).collect()
 
 	#tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
-	#tmp = rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).collect()
+	rdd.flatMap(batch_mapper).groupByKey().flatMapValues(top_down).values().saveAsTextFile("file:///Users/liucancheng/Documents/GitHub/sparkDataCube/Data/userTable") 
+
+	#insert_db(shared_table.value, post_list)
 	#print tmp
 
 
@@ -279,7 +279,7 @@ def main_func(sc, argv):
 # -- navie_reducer --
 if __name__ == "__main__":
 	print "#####################################"
-	sc = SparkContext(appName="Co-occurrence")	
+	sc = SparkContext(appName="Co-occurrence")
 	main_func(sc, sys.argv[1:])
 	print "888888888888888888888888888888888888888888888888888888888888888888888888888888888888888"
 

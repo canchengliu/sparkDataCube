@@ -22,18 +22,42 @@ def changeType(data):
 		res = data
 	return res
 
-def insert_db(table, data, v_col):	
-	record, value = data.split('\t')
-	region, group = record.split('|')
-	value_list = [changeType(v) for v in value.split()]
-	post = {}
-	for i in range(len(v_col)):
-		post[v_col[i]] = value_list[i]
-	region_list = [int(r) for r in region.split()]
-	group_list = [changeType(r) for r in group.split()]
-	for i in range(len(region_list)):
-		post[region_list[i]] = group_list[i]
+def insert_db(table, p_list):	
+	client = pymongo.MongoClient('localhost', 27017)
+	tdb = client.testdb
+	info_tbl = tdb.tableinfo
+	value_col = info_tbl.find_one({'table_name': table})['value_col']
+	id_col = info_tbl.find_one({'table_name': table})['id_col']
+	v_col = [id_col]
+	v_col.extend(value_col.split(','))
+	for data in p_list:
+		record, value = data.split('\t')
+		region, group = record.split('|')
+		value_list = [changeType(v) for v in value.split()]
+		post = {}
+		for i in range(len(v_col)):
+			post[v_col[i]] = value_list[i]
+		region_list = [r for r in region.split()]
+		group_list = [changeType(r) for r in group.split()]
+		for i in range(len(region_list)):
+			post[region_list[i]] = group_list[i]
+		insert_tbl = tdb[table]
+		insert_tbl.insert_one(post)
+
+'''
+
+def insert_db(table, post_list):
 	client = pymongo.MongoClient('localhost',27017)
 	tdb = client.testdb
 	insert_tbl = tdb[table]
-	insert_tbl.insert_one(post)
+	for p in post_list:
+		record, value = p.split('\t')
+		region, group = record.split('|')
+		value_list = [changeType(v) for v in value.split()]
+		post = {}
+		region_list = [int(r) for r in region.split()]
+		group_list = [changeType(r) for r in group.split()]
+		for i in range(len(region_list)):
+			post[region_list[i]] = group_list[i]
+		insert_tbl.insert_one(post)
+'''

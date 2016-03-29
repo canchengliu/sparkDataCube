@@ -9,6 +9,11 @@ import pymongo
 client = pymongo.MongoClient('localhost',27017)
 #if drop
 tdb = client.testdb
+
+post_u = {'name':'123', 'password': '123', 'context': 'hello'}
+tdb.user.insert_one(post_u)
+
+
 tdb.tableinfo.drop()
 info_tbl = tdb.tableinfo
 

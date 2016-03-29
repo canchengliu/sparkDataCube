@@ -1,1499 +1,313 @@
-{u'_id': ObjectId('56f8d7514f435ce3730633c3')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c3')}
-{u'_id': ObjectId('56f8d7514f435ce3730633c4')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c4')}
-{u'_id': ObjectId('56f8d7514f435ce3730633c5')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c5')}
-{u'_id': ObjectId('56f8d7514f435ce3730633c6')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c6')}
-{u'_id': ObjectId('56f8d7514f435ce3730633c7')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c7')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c8')}
-{u'_id': ObjectId('56f8d7514f435ce3730633c8')}
-{u'_id': ObjectId('56f8d7514f435ce3740633c9')}
-{u'_id': ObjectId('56f8d7514f435ce3730633c9')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ca')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ca')}
-{u'_id': ObjectId('56f8d7514f435ce3740633cb')}
-{u'_id': ObjectId('56f8d7514f435ce3730633cb')}
-{u'_id': ObjectId('56f8d7514f435ce3730633cc')}
-{u'_id': ObjectId('56f8d7514f435ce3740633cc')}
-{u'_id': ObjectId('56f8d7514f435ce3740633cd')}
-{u'_id': ObjectId('56f8d7514f435ce3730633cd')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ce')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ce')}
-{u'_id': ObjectId('56f8d7514f435ce3740633cf')}
-{u'_id': ObjectId('56f8d7514f435ce3730633cf')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d0')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d0')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d1')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d1')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d2')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d2')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d3')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d3')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d4')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d4')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d5')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d5')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d6')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d6')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d7')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d7')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d9')}
-{u'_id': ObjectId('56f8d7514f435ce3740633d8')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d8')}
-{u'_id': ObjectId('56f8d7514f435ce3730633d9')}
-{u'_id': ObjectId('56f8d7514f435ce3730633da')}
-{u'_id': ObjectId('56f8d7514f435ce3740633da')}
-{u'_id': ObjectId('56f8d7514f435ce3730633db')}
-{u'_id': ObjectId('56f8d7514f435ce3740633db')}
-{u'_id': ObjectId('56f8d7514f435ce3730633dc')}
-{u'_id': ObjectId('56f8d7514f435ce3740633dc')}
-{u'_id': ObjectId('56f8d7514f435ce3730633dd')}
-{u'_id': ObjectId('56f8d7514f435ce3740633dd')}
-{u'_id': ObjectId('56f8d7514f435ce3730633de')}
-{u'_id': ObjectId('56f8d7514f435ce3740633de')}
-{u'_id': ObjectId('56f8d7514f435ce3730633df')}
-{u'_id': ObjectId('56f8d7514f435ce3740633df')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e0')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e0')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e1')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e1')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e2')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e2')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e3')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e3')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e4')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e4')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e5')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e5')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e6')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e6')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e7')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e7')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e8')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e8')}
-{u'_id': ObjectId('56f8d7514f435ce3740633e9')}
-{u'_id': ObjectId('56f8d7514f435ce3730633e9')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ea')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ea')}
-{u'_id': ObjectId('56f8d7514f435ce3740633eb')}
-{u'_id': ObjectId('56f8d7514f435ce3730633eb')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ec')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ec')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ed')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ed')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ee')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ee')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ef')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ef')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f0')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f0')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f1')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f1')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f2')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f2')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f3')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f3')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f4')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f4')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f5')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f5')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f6')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f6')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f7')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f7')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f8')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f8')}
-{u'_id': ObjectId('56f8d7514f435ce3740633f9')}
-{u'_id': ObjectId('56f8d7514f435ce3730633f9')}
-{u'_id': ObjectId('56f8d7514f435ce3730633fa')}
-{u'_id': ObjectId('56f8d7514f435ce3740633fa')}
-{u'_id': ObjectId('56f8d7514f435ce3740633fb')}
-{u'_id': ObjectId('56f8d7514f435ce3730633fb')}
-{u'_id': ObjectId('56f8d7514f435ce3730633fc')}
-{u'_id': ObjectId('56f8d7514f435ce3740633fc')}
-{u'_id': ObjectId('56f8d7514f435ce3730633fd')}
-{u'_id': ObjectId('56f8d7514f435ce3740633fd')}
-{u'_id': ObjectId('56f8d7514f435ce3730633fe')}
-{u'_id': ObjectId('56f8d7514f435ce3740633fe')}
-{u'_id': ObjectId('56f8d7514f435ce3730633ff')}
-{u'_id': ObjectId('56f8d7514f435ce3740633ff')}
-{u'_id': ObjectId('56f8d7514f435ce374063400')}
-{u'_id': ObjectId('56f8d7514f435ce373063400')}
-{u'_id': ObjectId('56f8d7514f435ce374063401')}
-{u'_id': ObjectId('56f8d7514f435ce373063401')}
-{u'_id': ObjectId('56f8d7514f435ce374063402')}
-{u'_id': ObjectId('56f8d7514f435ce373063402')}
-{u'_id': ObjectId('56f8d7514f435ce374063403')}
-{u'_id': ObjectId('56f8d7514f435ce373063403')}
-{u'_id': ObjectId('56f8d7514f435ce374063404')}
-{u'_id': ObjectId('56f8d7514f435ce373063404')}
-{u'_id': ObjectId('56f8d7514f435ce373063405')}
-{u'_id': ObjectId('56f8d7514f435ce374063405')}
-{u'_id': ObjectId('56f8d7514f435ce374063406')}
-{u'_id': ObjectId('56f8d7514f435ce373063406')}
-{u'_id': ObjectId('56f8d7514f435ce374063407')}
-{u'_id': ObjectId('56f8d7514f435ce373063407')}
-{u'_id': ObjectId('56f8d7514f435ce374063408')}
-{u'_id': ObjectId('56f8d7514f435ce373063408')}
-{u'_id': ObjectId('56f8d7514f435ce373063409')}
-{u'_id': ObjectId('56f8d7514f435ce374063409')}
-{u'_id': ObjectId('56f8d7514f435ce37306340a')}
-{u'_id': ObjectId('56f8d7514f435ce37406340a')}
-{u'_id': ObjectId('56f8d7514f435ce37306340b')}
-{u'_id': ObjectId('56f8d7514f435ce37406340b')}
-{u'_id': ObjectId('56f8d7514f435ce37306340c')}
-{u'_id': ObjectId('56f8d7514f435ce37406340c')}
-{u'_id': ObjectId('56f8d7514f435ce37306340d')}
-{u'_id': ObjectId('56f8d7514f435ce37406340d')}
-{u'_id': ObjectId('56f8d7514f435ce37406340e')}
-{u'_id': ObjectId('56f8d7514f435ce37306340e')}
-{u'_id': ObjectId('56f8d7514f435ce37406340f')}
-{u'_id': ObjectId('56f8d7514f435ce37306340f')}
-{u'_id': ObjectId('56f8d7514f435ce374063410')}
-{u'_id': ObjectId('56f8d7514f435ce373063410')}
-{u'_id': ObjectId('56f8d7514f435ce374063411')}
-{u'_id': ObjectId('56f8d7514f435ce373063411')}
-{u'_id': ObjectId('56f8d7514f435ce374063412')}
-{u'_id': ObjectId('56f8d7514f435ce373063412')}
-{u'_id': ObjectId('56f8d7514f435ce374063413')}
-{u'_id': ObjectId('56f8d7514f435ce373063413')}
-{u'_id': ObjectId('56f8d7514f435ce374063414')}
-{u'_id': ObjectId('56f8d7514f435ce373063414')}
-{u'_id': ObjectId('56f8d7514f435ce374063415')}
-{u'_id': ObjectId('56f8d7514f435ce373063415')}
-{u'_id': ObjectId('56f8d7514f435ce374063416')}
-{u'_id': ObjectId('56f8d7514f435ce373063416')}
-{u'_id': ObjectId('56f8d7514f435ce374063417')}
-{u'_id': ObjectId('56f8d7514f435ce374063418')}
-{u'_id': ObjectId('56f8d7514f435ce373063417')}
-{u'_id': ObjectId('56f8d7514f435ce374063419')}
-{u'_id': ObjectId('56f8d7514f435ce373063418')}
-{u'_id': ObjectId('56f8d7514f435ce37406341a')}
-{u'_id': ObjectId('56f8d7514f435ce373063419')}
-{u'_id': ObjectId('56f8d7514f435ce37406341b')}
-{u'_id': ObjectId('56f8d7514f435ce37306341a')}
-{u'_id': ObjectId('56f8d7514f435ce37406341c')}
-{u'_id': ObjectId('56f8d7514f435ce37306341b')}
-{u'_id': ObjectId('56f8d7514f435ce37406341d')}
-{u'_id': ObjectId('56f8d7514f435ce37306341c')}
-{u'_id': ObjectId('56f8d7514f435ce37406341e')}
-{u'_id': ObjectId('56f8d7514f435ce37306341d')}
-{u'_id': ObjectId('56f8d7514f435ce37406341f')}
-{u'_id': ObjectId('56f8d7514f435ce37306341e')}
-{u'_id': ObjectId('56f8d7514f435ce374063420')}
-{u'_id': ObjectId('56f8d7514f435ce37306341f')}
-{u'_id': ObjectId('56f8d7514f435ce374063421')}
-{u'_id': ObjectId('56f8d7514f435ce373063420')}
-{u'_id': ObjectId('56f8d7514f435ce374063422')}
-{u'_id': ObjectId('56f8d7514f435ce373063421')}
-{u'_id': ObjectId('56f8d7514f435ce374063423')}
-{u'_id': ObjectId('56f8d7514f435ce373063422')}
-{u'_id': ObjectId('56f8d7514f435ce374063424')}
-{u'_id': ObjectId('56f8d7514f435ce373063423')}
-{u'_id': ObjectId('56f8d7514f435ce374063425')}
-{u'_id': ObjectId('56f8d7514f435ce373063424')}
-{u'_id': ObjectId('56f8d7514f435ce374063426')}
-{u'_id': ObjectId('56f8d7514f435ce373063425')}
-{u'_id': ObjectId('56f8d7514f435ce374063427')}
-{u'_id': ObjectId('56f8d7514f435ce373063426')}
-{u'_id': ObjectId('56f8d7514f435ce374063428')}
-{u'_id': ObjectId('56f8d7514f435ce373063427')}
-{u'_id': ObjectId('56f8d7514f435ce374063429')}
-{u'_id': ObjectId('56f8d7514f435ce373063428')}
-{u'_id': ObjectId('56f8d7514f435ce37406342a')}
-{u'_id': ObjectId('56f8d7514f435ce373063429')}
-{u'_id': ObjectId('56f8d7514f435ce37406342b')}
-{u'_id': ObjectId('56f8d7514f435ce37306342a')}
-{u'_id': ObjectId('56f8d7514f435ce37406342c')}
-{u'_id': ObjectId('56f8d7514f435ce37306342b')}
-{u'_id': ObjectId('56f8d7514f435ce37406342d')}
-{u'_id': ObjectId('56f8d7514f435ce37306342c')}
-{u'_id': ObjectId('56f8d7514f435ce37406342e')}
-{u'_id': ObjectId('56f8d7514f435ce37306342d')}
-{u'_id': ObjectId('56f8d7514f435ce37306342e')}
-{u'_id': ObjectId('56f8d7514f435ce37406342f')}
-{u'_id': ObjectId('56f8d7514f435ce374063430')}
-{u'_id': ObjectId('56f8d7514f435ce37306342f')}
-{u'_id': ObjectId('56f8d7514f435ce373063430')}
-{u'_id': ObjectId('56f8d7514f435ce374063431')}
-{u'_id': ObjectId('56f8d7514f435ce374063432')}
-{u'_id': ObjectId('56f8d7514f435ce373063431')}
-{u'_id': ObjectId('56f8d7514f435ce373063432')}
-{u'_id': ObjectId('56f8d7514f435ce374063433')}
-{u'_id': ObjectId('56f8d7514f435ce374063434')}
-{u'_id': ObjectId('56f8d7514f435ce373063433')}
-{u'_id': ObjectId('56f8d7514f435ce374063435')}
-{u'_id': ObjectId('56f8d7514f435ce373063434')}
-{u'_id': ObjectId('56f8d7514f435ce374063436')}
-{u'_id': ObjectId('56f8d7514f435ce373063435')}
-{u'_id': ObjectId('56f8d7514f435ce374063437')}
-{u'_id': ObjectId('56f8d7514f435ce373063436')}
-{u'_id': ObjectId('56f8d7514f435ce374063438')}
-{u'_id': ObjectId('56f8d7514f435ce373063437')}
-{u'_id': ObjectId('56f8d7514f435ce374063439')}
-{u'_id': ObjectId('56f8d7514f435ce373063438')}
-{u'_id': ObjectId('56f8d7514f435ce37406343a')}
-{u'_id': ObjectId('56f8d7514f435ce373063439')}
-{u'_id': ObjectId('56f8d7514f435ce37406343b')}
-{u'_id': ObjectId('56f8d7514f435ce37306343a')}
-{u'_id': ObjectId('56f8d7514f435ce37306343b')}
-{u'_id': ObjectId('56f8d7514f435ce37406343c')}
-{u'_id': ObjectId('56f8d7514f435ce37306343c')}
-{u'_id': ObjectId('56f8d7514f435ce37406343d')}
-{u'_id': ObjectId('56f8d7514f435ce37306343d')}
-{u'_id': ObjectId('56f8d7514f435ce37406343e')}
-{u'_id': ObjectId('56f8d7514f435ce37306343e')}
-{u'_id': ObjectId('56f8d7514f435ce37406343f')}
-{u'_id': ObjectId('56f8d7514f435ce374063440')}
-{u'_id': ObjectId('56f8d7514f435ce37306343f')}
-{u'_id': ObjectId('56f8d7524f435ce374063441')}
-{u'_id': ObjectId('56f8d7524f435ce373063440')}
-{u'_id': ObjectId('56f8d7524f435ce373063441')}
-{u'_id': ObjectId('56f8d7524f435ce374063442')}
-{u'_id': ObjectId('56f8d7524f435ce374063443')}
-{u'_id': ObjectId('56f8d7524f435ce373063442')}
-{u'_id': ObjectId('56f8d7524f435ce373063443')}
-{u'_id': ObjectId('56f8d7524f435ce374063444')}
-{u'_id': ObjectId('56f8d7524f435ce374063445')}
-{u'_id': ObjectId('56f8d7524f435ce373063444')}
-{u'_id': ObjectId('56f8d7524f435ce373063445')}
-{u'_id': ObjectId('56f8d7524f435ce374063446')}
-{u'_id': ObjectId('56f8d7524f435ce374063447')}
-{u'_id': ObjectId('56f8d7524f435ce373063446')}
-{u'_id': ObjectId('56f8d7524f435ce373063447')}
-{u'_id': ObjectId('56f8d7524f435ce374063448')}
-{u'_id': ObjectId('56f8d7524f435ce374063449')}
-{u'_id': ObjectId('56f8d7524f435ce373063448')}
-{u'_id': ObjectId('56f8d7524f435ce37406344a')}
-{u'_id': ObjectId('56f8d7524f435ce373063449')}
-{u'_id': ObjectId('56f8d7524f435ce37306344a')}
-{u'_id': ObjectId('56f8d7524f435ce37406344b')}
-{u'_id': ObjectId('56f8d7524f435ce37306344b')}
-{u'_id': ObjectId('56f8d7524f435ce37406344c')}
-{u'_id': ObjectId('56f8d7524f435ce37406344d')}
-{u'_id': ObjectId('56f8d7524f435ce37306344c')}
-{u'_id': ObjectId('56f8d7524f435ce37306344d')}
-{u'_id': ObjectId('56f8d7524f435ce37406344e')}
-{u'_id': ObjectId('56f8d7524f435ce37406344f')}
-{u'_id': ObjectId('56f8d7524f435ce37306344e')}
-{u'_id': ObjectId('56f8d7524f435ce374063450')}
-{u'_id': ObjectId('56f8d7524f435ce37306344f')}
-{u'_id': ObjectId('56f8d7524f435ce373063450')}
-{u'_id': ObjectId('56f8d7524f435ce374063451')}
-{u'_id': ObjectId('56f8d7524f435ce373063451')}
-{u'_id': ObjectId('56f8d7524f435ce374063452')}
-{u'_id': ObjectId('56f8d7524f435ce373063452')}
-{u'_id': ObjectId('56f8d7524f435ce374063453')}
-{u'_id': ObjectId('56f8d7524f435ce374063454')}
-{u'_id': ObjectId('56f8d7524f435ce373063453')}
-{u'_id': ObjectId('56f8d7524f435ce373063454')}
-{u'_id': ObjectId('56f8d7524f435ce374063455')}
-{u'_id': ObjectId('56f8d7524f435ce374063456')}
-{u'_id': ObjectId('56f8d7524f435ce373063455')}
-{u'_id': ObjectId('56f8d7524f435ce373063456')}
-{u'_id': ObjectId('56f8d7524f435ce374063457')}
-{u'_id': ObjectId('56f8d7524f435ce374063458')}
-{u'_id': ObjectId('56f8d7524f435ce373063457')}
-{u'_id': ObjectId('56f8d7524f435ce373063458')}
-{u'_id': ObjectId('56f8d7524f435ce374063459')}
-{u'_id': ObjectId('56f8d7524f435ce373063459')}
-{u'_id': ObjectId('56f8d7524f435ce37406345a')}
-{u'_id': ObjectId('56f8d7524f435ce37306345a')}
-{u'_id': ObjectId('56f8d7524f435ce37406345b')}
-{u'_id': ObjectId('56f8d7524f435ce37406345c')}
-{u'_id': ObjectId('56f8d7524f435ce37306345b')}
-{u'_id': ObjectId('56f8d7524f435ce37406345d')}
-{u'_id': ObjectId('56f8d7524f435ce37306345c')}
-{u'_id': ObjectId('56f8d7524f435ce37306345d')}
-{u'_id': ObjectId('56f8d7524f435ce37406345e')}
-{u'_id': ObjectId('56f8d7524f435ce37406345f')}
-{u'_id': ObjectId('56f8d7524f435ce37306345e')}
-{u'_id': ObjectId('56f8d7524f435ce37306345f')}
-{u'_id': ObjectId('56f8d7524f435ce374063460')}
-{u'_id': ObjectId('56f8d7524f435ce374063461')}
-{u'_id': ObjectId('56f8d7524f435ce373063460')}
-{u'_id': ObjectId('56f8d7524f435ce373063461')}
-{u'_id': ObjectId('56f8d7524f435ce374063462')}
-{u'_id': ObjectId('56f8d7524f435ce373063462')}
-{u'_id': ObjectId('56f8d7524f435ce374063463')}
-{u'_id': ObjectId('56f8d7524f435ce374063464')}
-{u'_id': ObjectId('56f8d7524f435ce373063463')}
-{u'_id': ObjectId('56f8d7524f435ce373063464')}
-{u'_id': ObjectId('56f8d7524f435ce374063465')}
-{u'_id': ObjectId('56f8d7524f435ce373063465')}
-{u'_id': ObjectId('56f8d7524f435ce374063466')}
-{u'_id': ObjectId('56f8d7524f435ce374063467')}
-{u'_id': ObjectId('56f8d7524f435ce373063466')}
-{u'_id': ObjectId('56f8d7524f435ce373063467')}
-{u'_id': ObjectId('56f8d7524f435ce374063468')}
-{u'_id': ObjectId('56f8d7524f435ce373063468')}
-{u'_id': ObjectId('56f8d7524f435ce374063469')}
-{u'_id': ObjectId('56f8d7524f435ce373063469')}
-{u'_id': ObjectId('56f8d7524f435ce37406346a')}
-{u'_id': ObjectId('56f8d7524f435ce37306346a')}
-{u'_id': ObjectId('56f8d7524f435ce37406346b')}
-{u'_id': ObjectId('56f8d7524f435ce37306346b')}
-{u'_id': ObjectId('56f8d7524f435ce37406346c')}
-{u'_id': ObjectId('56f8d7524f435ce37406346d')}
-{u'_id': ObjectId('56f8d7524f435ce37306346c')}
-{u'_id': ObjectId('56f8d7524f435ce37406346e')}
-{u'_id': ObjectId('56f8d7524f435ce37306346d')}
-{u'_id': ObjectId('56f8d7524f435ce37406346f')}
-{u'_id': ObjectId('56f8d7524f435ce37306346e')}
-{u'_id': ObjectId('56f8d7524f435ce37306346f')}
-{u'_id': ObjectId('56f8d7524f435ce374063470')}
-{u'_id': ObjectId('56f8d7524f435ce373063470')}
-{u'_id': ObjectId('56f8d7524f435ce374063471')}
-{u'_id': ObjectId('56f8d7524f435ce374063472')}
-{u'_id': ObjectId('56f8d7524f435ce373063471')}
-{u'_id': ObjectId('56f8d7524f435ce374063473')}
-{u'_id': ObjectId('56f8d7524f435ce373063472')}
-{u'_id': ObjectId('56f8d7524f435ce373063473')}
-{u'_id': ObjectId('56f8d7524f435ce374063474')}
-{u'_id': ObjectId('56f8d7524f435ce373063474')}
-{u'_id': ObjectId('56f8d7524f435ce374063475')}
-{u'_id': ObjectId('56f8d7524f435ce373063475')}
-{u'_id': ObjectId('56f8d7524f435ce374063476')}
-{u'_id': ObjectId('56f8d7524f435ce374063477')}
-{u'_id': ObjectId('56f8d7524f435ce373063476')}
-{u'_id': ObjectId('56f8d7524f435ce374063478')}
-{u'_id': ObjectId('56f8d7524f435ce373063477')}
-{u'_id': ObjectId('56f8d7524f435ce373063478')}
-{u'_id': ObjectId('56f8d7524f435ce374063479')}
-{u'_id': ObjectId('56f8d7524f435ce373063479')}
-{u'_id': ObjectId('56f8d7524f435ce37406347a')}
-{u'_id': ObjectId('56f8d7524f435ce37306347a')}
-{u'_id': ObjectId('56f8d7524f435ce37406347b')}
-{u'_id': ObjectId('56f8d7524f435ce37306347b')}
-{u'_id': ObjectId('56f8d7524f435ce37406347c')}
-{u'_id': ObjectId('56f8d7524f435ce37406347d')}
-{u'_id': ObjectId('56f8d7524f435ce37306347c')}
-{u'_id': ObjectId('56f8d7524f435ce37306347d')}
-{u'_id': ObjectId('56f8d7524f435ce37406347e')}
-{u'_id': ObjectId('56f8d7524f435ce37306347e')}
-{u'_id': ObjectId('56f8d7524f435ce37406347f')}
-{u'_id': ObjectId('56f8d7524f435ce374063480')}
-{u'_id': ObjectId('56f8d7524f435ce37306347f')}
-{u'_id': ObjectId('56f8d7524f435ce373063480')}
-{u'_id': ObjectId('56f8d7524f435ce374063481')}
-{u'_id': ObjectId('56f8d7524f435ce373063481')}
-{u'_id': ObjectId('56f8d7524f435ce374063482')}
-{u'_id': ObjectId('56f8d7524f435ce373063482')}
-{u'_id': ObjectId('56f8d7524f435ce374063483')}
-{u'_id': ObjectId('56f8d7524f435ce374063484')}
-{u'_id': ObjectId('56f8d7524f435ce373063483')}
-{u'_id': ObjectId('56f8d7524f435ce373063484')}
-{u'_id': ObjectId('56f8d7524f435ce374063485')}
-{u'_id': ObjectId('56f8d7524f435ce373063485')}
-{u'_id': ObjectId('56f8d7524f435ce374063486')}
-{u'_id': ObjectId('56f8d7524f435ce373063486')}
-{u'_id': ObjectId('56f8d7524f435ce374063487')}
-{u'_id': ObjectId('56f8d7524f435ce374063488')}
-{u'_id': ObjectId('56f8d7524f435ce373063487')}
-{u'_id': ObjectId('56f8d7524f435ce373063488')}
-{u'_id': ObjectId('56f8d7524f435ce374063489')}
-{u'_id': ObjectId('56f8d7524f435ce37406348a')}
-{u'_id': ObjectId('56f8d7524f435ce373063489')}
-{u'_id': ObjectId('56f8d7524f435ce37406348b')}
-{u'_id': ObjectId('56f8d7524f435ce37306348a')}
-{u'_id': ObjectId('56f8d7524f435ce37406348c')}
-{u'_id': ObjectId('56f8d7524f435ce37306348b')}
-{u'_id': ObjectId('56f8d7524f435ce37406348d')}
-{u'_id': ObjectId('56f8d7524f435ce37306348c')}
-{u'_id': ObjectId('56f8d7524f435ce37406348e')}
-{u'_id': ObjectId('56f8d7524f435ce37306348d')}
-{u'_id': ObjectId('56f8d7524f435ce37406348f')}
-{u'_id': ObjectId('56f8d7524f435ce37306348e')}
-{u'_id': ObjectId('56f8d7524f435ce374063490')}
-{u'_id': ObjectId('56f8d7524f435ce37306348f')}
-{u'_id': ObjectId('56f8d7524f435ce374063491')}
-{u'_id': ObjectId('56f8d7524f435ce373063490')}
-{u'_id': ObjectId('56f8d7524f435ce373063491')}
-{u'_id': ObjectId('56f8d7524f435ce374063492')}
-{u'_id': ObjectId('56f8d7524f435ce373063492')}
-{u'_id': ObjectId('56f8d7524f435ce374063493')}
-{u'_id': ObjectId('56f8d7524f435ce374063494')}
-{u'_id': ObjectId('56f8d7524f435ce373063493')}
-{u'_id': ObjectId('56f8d7524f435ce373063494')}
-{u'_id': ObjectId('56f8d7524f435ce374063495')}
-{u'_id': ObjectId('56f8d7524f435ce373063495')}
-{u'_id': ObjectId('56f8d7524f435ce374063496')}
-{u'_id': ObjectId('56f8d7524f435ce373063496')}
-{u'_id': ObjectId('56f8d7524f435ce374063497')}
-{u'_id': ObjectId('56f8d7524f435ce374063498')}
-{u'_id': ObjectId('56f8d7524f435ce373063497')}
-{u'_id': ObjectId('56f8d7524f435ce373063498')}
-{u'_id': ObjectId('56f8d7524f435ce374063499')}
-{u'_id': ObjectId('56f8d7524f435ce37406349a')}
-{u'_id': ObjectId('56f8d7524f435ce373063499')}
-{u'_id': ObjectId('56f8d7524f435ce37406349b')}
-{u'_id': ObjectId('56f8d7524f435ce37306349a')}
-{u'_id': ObjectId('56f8d7524f435ce37306349b')}
-{u'_id': ObjectId('56f8d7524f435ce37406349c')}
-{u'_id': ObjectId('56f8d7524f435ce37306349c')}
-{u'_id': ObjectId('56f8d7524f435ce37406349d')}
-{u'_id': ObjectId('56f8d7524f435ce37406349e')}
-{u'_id': ObjectId('56f8d7524f435ce37306349d')}
-{u'_id': ObjectId('56f8d7524f435ce37406349f')}
-{u'_id': ObjectId('56f8d7524f435ce37306349e')}
-{u'_id': ObjectId('56f8d7524f435ce37306349f')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a1')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a0')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a1')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a2')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a3')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a3')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a5')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a5')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a6')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a7')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a8')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a8')}
-{u'_id': ObjectId('56f8d7524f435ce3740634a9')}
-{u'_id': ObjectId('56f8d7524f435ce3740634aa')}
-{u'_id': ObjectId('56f8d7524f435ce3730634a9')}
-{u'_id': ObjectId('56f8d7524f435ce3730634aa')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ab')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ac')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ab')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ad')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ac')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ad')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ae')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ae')}
-{u'_id': ObjectId('56f8d7524f435ce3740634af')}
-{u'_id': ObjectId('56f8d7524f435ce3730634af')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b1')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b1')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b3')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b3')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b4')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b5')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b5')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b6')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b7')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b8')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b8')}
-{u'_id': ObjectId('56f8d7524f435ce3740634b9')}
-{u'_id': ObjectId('56f8d7524f435ce3730634b9')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ba')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ba')}
-{u'_id': ObjectId('56f8d7524f435ce3740634bb')}
-{u'_id': ObjectId('56f8d7524f435ce3730634bb')}
-{u'_id': ObjectId('56f8d7524f435ce3740634bc')}
-{u'_id': ObjectId('56f8d7524f435ce3730634bc')}
-{u'_id': ObjectId('56f8d7524f435ce3740634bd')}
-{u'_id': ObjectId('56f8d7524f435ce3740634be')}
-{u'_id': ObjectId('56f8d7524f435ce3730634bd')}
-{u'_id': ObjectId('56f8d7524f435ce3740634bf')}
-{u'_id': ObjectId('56f8d7524f435ce3730634be')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c0')}
-{u'_id': ObjectId('56f8d7524f435ce3730634bf')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c1')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c1')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c3')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c2')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c3')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c5')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c4')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c6')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c5')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c7')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c8')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c8')}
-{u'_id': ObjectId('56f8d7524f435ce3740634c9')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ca')}
-{u'_id': ObjectId('56f8d7524f435ce3730634c9')}
-{u'_id': ObjectId('56f8d7524f435ce3740634cb')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ca')}
-{u'_id': ObjectId('56f8d7524f435ce3730634cb')}
-{u'_id': ObjectId('56f8d7524f435ce3740634cc')}
-{u'_id': ObjectId('56f8d7524f435ce3730634cc')}
-{u'_id': ObjectId('56f8d7524f435ce3740634cd')}
-{u'_id': ObjectId('56f8d7524f435ce3730634cd')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ce')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ce')}
-{u'_id': ObjectId('56f8d7524f435ce3740634cf')}
-{u'_id': ObjectId('56f8d7524f435ce3730634cf')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d0')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d1')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d1')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d2')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d3')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d3')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d4')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d5')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d6')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d5')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d7')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d8')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d8')}
-{u'_id': ObjectId('56f8d7524f435ce3740634d9')}
-{u'_id': ObjectId('56f8d7524f435ce3740634da')}
-{u'_id': ObjectId('56f8d7524f435ce3730634d9')}
-{u'_id': ObjectId('56f8d7524f435ce3730634da')}
-{u'_id': ObjectId('56f8d7524f435ce3740634db')}
-{u'_id': ObjectId('56f8d7524f435ce3730634db')}
-{u'_id': ObjectId('56f8d7524f435ce3740634dc')}
-{u'_id': ObjectId('56f8d7524f435ce3730634dc')}
-{u'_id': ObjectId('56f8d7524f435ce3740634dd')}
-{u'_id': ObjectId('56f8d7524f435ce3730634dd')}
-{u'_id': ObjectId('56f8d7524f435ce3740634de')}
-{u'_id': ObjectId('56f8d7524f435ce3740634df')}
-{u'_id': ObjectId('56f8d7524f435ce3730634de')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e0')}
-{u'_id': ObjectId('56f8d7524f435ce3730634df')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e1')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e0')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e1')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e2')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e3')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e3')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e4')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e5')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e6')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e5')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e8')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e7')}
-{u'_id': ObjectId('56f8d7524f435ce3740634e9')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e8')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ea')}
-{u'_id': ObjectId('56f8d7524f435ce3730634e9')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ea')}
-{u'_id': ObjectId('56f8d7524f435ce3740634eb')}
-{u'_id': ObjectId('56f8d7524f435ce3730634eb')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ec')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ec')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ed')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ed')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ee')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ee')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ef')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ef')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f1')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f0')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f2')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f1')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f3')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f2')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f4')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f3')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f4')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f5')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f5')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f6')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f8')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f7')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f8')}
-{u'_id': ObjectId('56f8d7524f435ce3740634f9')}
-{u'_id': ObjectId('56f8d7524f435ce3730634f9')}
-{u'_id': ObjectId('56f8d7524f435ce3740634fa')}
-{u'_id': ObjectId('56f8d7524f435ce3740634fb')}
-{u'_id': ObjectId('56f8d7524f435ce3730634fa')}
-{u'_id': ObjectId('56f8d7524f435ce3740634fc')}
-{u'_id': ObjectId('56f8d7524f435ce3730634fb')}
-{u'_id': ObjectId('56f8d7524f435ce3740634fd')}
-{u'_id': ObjectId('56f8d7524f435ce3730634fc')}
-{u'_id': ObjectId('56f8d7524f435ce3730634fd')}
-{u'_id': ObjectId('56f8d7524f435ce3740634fe')}
-{u'_id': ObjectId('56f8d7524f435ce3730634fe')}
-{u'_id': ObjectId('56f8d7524f435ce3740634ff')}
-{u'_id': ObjectId('56f8d7524f435ce3730634ff')}
-{u'_id': ObjectId('56f8d7524f435ce374063500')}
-{u'_id': ObjectId('56f8d7524f435ce373063500')}
-{u'_id': ObjectId('56f8d7524f435ce374063501')}
-{u'_id': ObjectId('56f8d7524f435ce374063502')}
-{u'_id': ObjectId('56f8d7524f435ce373063501')}
-{u'_id': ObjectId('56f8d7524f435ce373063502')}
-{u'_id': ObjectId('56f8d7524f435ce374063503')}
-{u'_id': ObjectId('56f8d7524f435ce373063503')}
-{u'_id': ObjectId('56f8d7524f435ce374063504')}
-{u'_id': ObjectId('56f8d7524f435ce373063504')}
-{u'_id': ObjectId('56f8d7524f435ce374063505')}
-{u'_id': ObjectId('56f8d7524f435ce374063506')}
-{u'_id': ObjectId('56f8d7524f435ce373063505')}
-{u'_id': ObjectId('56f8d7524f435ce373063506')}
-{u'_id': ObjectId('56f8d7524f435ce374063507')}
-{u'_id': ObjectId('56f8d7524f435ce374063508')}
-{u'_id': ObjectId('56f8d7524f435ce373063507')}
-{u'_id': ObjectId('56f8d7524f435ce373063508')}
-{u'_id': ObjectId('56f8d7524f435ce374063509')}
-{u'_id': ObjectId('56f8d7524f435ce37406350a')}
-{u'_id': ObjectId('56f8d7524f435ce373063509')}
-{u'_id': ObjectId('56f8d7524f435ce37406350b')}
-{u'_id': ObjectId('56f8d7524f435ce37306350a')}
-{u'_id': ObjectId('56f8d7534f435ce37406350c')}
-{u'_id': ObjectId('56f8d7534f435ce37306350b')}
-{u'_id': ObjectId('56f8d7534f435ce37306350c')}
-{u'_id': ObjectId('56f8d7534f435ce37406350d')}
-{u'_id': ObjectId('56f8d7534f435ce37306350d')}
-{u'_id': ObjectId('56f8d7534f435ce37406350e')}
-{u'_id': ObjectId('56f8d7534f435ce37306350e')}
-{u'_id': ObjectId('56f8d7534f435ce37406350f')}
-{u'_id': ObjectId('56f8d7534f435ce374063510')}
-{u'_id': ObjectId('56f8d7534f435ce37306350f')}
-{u'_id': ObjectId('56f8d7534f435ce373063510')}
-{u'_id': ObjectId('56f8d7534f435ce374063511')}
-{u'_id': ObjectId('56f8d7534f435ce373063511')}
-{u'_id': ObjectId('56f8d7534f435ce374063512')}
-{u'_id': ObjectId('56f8d7534f435ce373063512')}
-{u'_id': ObjectId('56f8d7534f435ce374063513')}
-{u'_id': ObjectId('56f8d7534f435ce374063514')}
-{u'_id': ObjectId('56f8d7534f435ce373063513')}
-{u'_id': ObjectId('56f8d7534f435ce373063514')}
-{u'_id': ObjectId('56f8d7534f435ce374063515')}
-{u'_id': ObjectId('56f8d7534f435ce374063516')}
-{u'_id': ObjectId('56f8d7534f435ce373063515')}
-{u'_id': ObjectId('56f8d7534f435ce374063517')}
-{u'_id': ObjectId('56f8d7534f435ce373063516')}
-{u'_id': ObjectId('56f8d7534f435ce374063518')}
-{u'_id': ObjectId('56f8d7534f435ce373063517')}
-{u'_id': ObjectId('56f8d7534f435ce374063519')}
-{u'_id': ObjectId('56f8d7534f435ce373063518')}
-{u'_id': ObjectId('56f8d7534f435ce37406351a')}
-{u'_id': ObjectId('56f8d7534f435ce373063519')}
-{u'_id': ObjectId('56f8d7534f435ce37406351b')}
-{u'_id': ObjectId('56f8d7534f435ce37306351a')}
-{u'_id': ObjectId('56f8d7534f435ce37406351c')}
-{u'_id': ObjectId('56f8d7534f435ce37306351b')}
-{u'_id': ObjectId('56f8d7534f435ce37406351d')}
-{u'_id': ObjectId('56f8d7534f435ce37306351c')}
-{u'_id': ObjectId('56f8d7534f435ce37306351d')}
-{u'_id': ObjectId('56f8d7534f435ce37406351e')}
-{u'_id': ObjectId('56f8d7534f435ce37406351f')}
-{u'_id': ObjectId('56f8d7534f435ce37306351e')}
-{u'_id': ObjectId('56f8d7534f435ce37306351f')}
-{u'_id': ObjectId('56f8d7534f435ce374063520')}
-{u'_id': ObjectId('56f8d7534f435ce373063520')}
-{u'_id': ObjectId('56f8d7534f435ce374063521')}
-{u'_id': ObjectId('56f8d7534f435ce374063522')}
-{u'_id': ObjectId('56f8d7534f435ce373063521')}
-{u'_id': ObjectId('56f8d7534f435ce373063522')}
-{u'_id': ObjectId('56f8d7534f435ce374063523')}
-{u'_id': ObjectId('56f8d7534f435ce374063524')}
-{u'_id': ObjectId('56f8d7534f435ce373063523')}
-{u'_id': ObjectId('56f8d7534f435ce374063525')}
-{u'_id': ObjectId('56f8d7534f435ce373063524')}
-{u'_id': ObjectId('56f8d7534f435ce373063525')}
-{u'_id': ObjectId('56f8d7534f435ce374063526')}
-{u'_id': ObjectId('56f8d7534f435ce374063527')}
-{u'_id': ObjectId('56f8d7534f435ce373063526')}
-{u'_id': ObjectId('56f8d7534f435ce373063527')}
-{u'_id': ObjectId('56f8d7534f435ce374063528')}
-{u'_id': ObjectId('56f8d7534f435ce373063528')}
-{u'_id': ObjectId('56f8d7534f435ce374063529')}
-{u'_id': ObjectId('56f8d7534f435ce37406352a')}
-{u'_id': ObjectId('56f8d7534f435ce373063529')}
-{u'_id': ObjectId('56f8d7534f435ce37406352b')}
-{u'_id': ObjectId('56f8d7534f435ce37306352a')}
-{u'_id': ObjectId('56f8d7534f435ce37406352c')}
-{u'_id': ObjectId('56f8d7534f435ce37306352b')}
-{u'_id': ObjectId('56f8d7534f435ce37406352d')}
-{u'_id': ObjectId('56f8d7534f435ce37306352c')}
-{u'_id': ObjectId('56f8d7534f435ce37406352e')}
-{u'_id': ObjectId('56f8d7534f435ce37306352d')}
-{u'_id': ObjectId('56f8d7534f435ce37406352f')}
-{u'_id': ObjectId('56f8d7534f435ce37306352e')}
-{u'_id': ObjectId('56f8d7534f435ce374063530')}
-{u'_id': ObjectId('56f8d7534f435ce37306352f')}
-{u'_id': ObjectId('56f8d7534f435ce373063530')}
-{u'_id': ObjectId('56f8d7534f435ce374063531')}
-{u'_id': ObjectId('56f8d7534f435ce374063532')}
-{u'_id': ObjectId('56f8d7534f435ce373063531')}
-{u'_id': ObjectId('56f8d7534f435ce374063533')}
-{u'_id': ObjectId('56f8d7534f435ce373063532')}
-{u'_id': ObjectId('56f8d7534f435ce374063534')}
-{u'_id': ObjectId('56f8d7534f435ce373063533')}
-{u'_id': ObjectId('56f8d7534f435ce373063534')}
-{u'_id': ObjectId('56f8d7534f435ce374063535')}
-{u'_id': ObjectId('56f8d7534f435ce374063536')}
-{u'_id': ObjectId('56f8d7534f435ce373063535')}
-{u'_id': ObjectId('56f8d7534f435ce374063537')}
-{u'_id': ObjectId('56f8d7534f435ce373063536')}
-{u'_id': ObjectId('56f8d7534f435ce374063538')}
-{u'_id': ObjectId('56f8d7534f435ce373063537')}
-{u'_id': ObjectId('56f8d7534f435ce373063538')}
-{u'_id': ObjectId('56f8d7534f435ce374063539')}
-{u'_id': ObjectId('56f8d7534f435ce37406353a')}
-{u'_id': ObjectId('56f8d7534f435ce373063539')}
-{u'_id': ObjectId('56f8d7534f435ce37306353a')}
-{u'_id': ObjectId('56f8d7534f435ce37406353b')}
-{u'_id': ObjectId('56f8d7534f435ce37306353b')}
-{u'_id': ObjectId('56f8d7534f435ce37406353c')}
-{u'_id': ObjectId('56f8d7534f435ce37306353c')}
-{u'_id': ObjectId('56f8d7534f435ce37406353d')}
-{u'_id': ObjectId('56f8d7534f435ce37406353e')}
-{u'_id': ObjectId('56f8d7534f435ce37306353d')}
-{u'_id': ObjectId('56f8d7534f435ce37306353e')}
-{u'_id': ObjectId('56f8d7534f435ce37406353f')}
-{u'_id': ObjectId('56f8d7534f435ce374063540')}
-{u'_id': ObjectId('56f8d7534f435ce37306353f')}
-{u'_id': ObjectId('56f8d7534f435ce373063540')}
-{u'_id': ObjectId('56f8d7534f435ce374063541')}
-{u'_id': ObjectId('56f8d7534f435ce374063542')}
-{u'_id': ObjectId('56f8d7534f435ce373063541')}
-{u'_id': ObjectId('56f8d7534f435ce374063543')}
-{u'_id': ObjectId('56f8d7534f435ce373063542')}
-{u'_id': ObjectId('56f8d7534f435ce373063543')}
-{u'_id': ObjectId('56f8d7534f435ce374063544')}
-{u'_id': ObjectId('56f8d7534f435ce374063545')}
-{u'_id': ObjectId('56f8d7534f435ce373063544')}
-{u'_id': ObjectId('56f8d7534f435ce374063546')}
-{u'_id': ObjectId('56f8d7534f435ce373063545')}
-{u'_id': ObjectId('56f8d7534f435ce373063546')}
-{u'_id': ObjectId('56f8d7534f435ce374063547')}
-{u'_id': ObjectId('56f8d7534f435ce374063548')}
-{u'_id': ObjectId('56f8d7534f435ce373063547')}
-{u'_id': ObjectId('56f8d7534f435ce374063549')}
-{u'_id': ObjectId('56f8d7534f435ce373063548')}
-{u'_id': ObjectId('56f8d7534f435ce373063549')}
-{u'_id': ObjectId('56f8d7534f435ce37406354a')}
-{u'_id': ObjectId('56f8d7534f435ce37406354b')}
-{u'_id': ObjectId('56f8d7534f435ce37306354a')}
-{u'_id': ObjectId('56f8d7534f435ce37306354b')}
-{u'_id': ObjectId('56f8d7534f435ce37406354c')}
-{u'_id': ObjectId('56f8d7534f435ce37306354c')}
-{u'_id': ObjectId('56f8d7534f435ce37406354d')}
-{u'_id': ObjectId('56f8d7534f435ce37306354d')}
-{u'_id': ObjectId('56f8d7534f435ce37406354e')}
-{u'_id': ObjectId('56f8d7534f435ce37406354f')}
-{u'_id': ObjectId('56f8d7534f435ce37306354e')}
-{u'_id': ObjectId('56f8d7534f435ce374063550')}
-{u'_id': ObjectId('56f8d7534f435ce37306354f')}
-{u'_id': ObjectId('56f8d7534f435ce374063551')}
-{u'_id': ObjectId('56f8d7534f435ce373063550')}
-{u'_id': ObjectId('56f8d7534f435ce373063551')}
-{u'_id': ObjectId('56f8d7534f435ce374063552')}
-{u'_id': ObjectId('56f8d7534f435ce373063552')}
-{u'_id': ObjectId('56f8d7534f435ce374063553')}
-{u'_id': ObjectId('56f8d7534f435ce374063554')}
-{u'_id': ObjectId('56f8d7534f435ce373063553')}
-{u'_id': ObjectId('56f8d7534f435ce373063554')}
-{u'_id': ObjectId('56f8d7534f435ce374063555')}
-{u'_id': ObjectId('56f8d7534f435ce374063556')}
-{u'_id': ObjectId('56f8d7534f435ce373063555')}
-{u'_id': ObjectId('56f8d7534f435ce373063556')}
-{u'_id': ObjectId('56f8d7534f435ce374063557')}
-{u'_id': ObjectId('56f8d7534f435ce373063557')}
-{u'_id': ObjectId('56f8d7534f435ce374063558')}
-{u'_id': ObjectId('56f8d7534f435ce374063559')}
-{u'_id': ObjectId('56f8d7534f435ce373063558')}
-{u'_id': ObjectId('56f8d7534f435ce373063559')}
-{u'_id': ObjectId('56f8d7534f435ce37406355a')}
-{u'_id': ObjectId('56f8d7534f435ce37306355a')}
-{u'_id': ObjectId('56f8d7534f435ce37406355b')}
-{u'_id': ObjectId('56f8d7534f435ce37306355b')}
-{u'_id': ObjectId('56f8d7534f435ce37406355c')}
-{u'_id': ObjectId('56f8d7534f435ce37306355c')}
-{u'_id': ObjectId('56f8d7534f435ce37406355d')}
-{u'_id': ObjectId('56f8d7534f435ce37306355d')}
-{u'_id': ObjectId('56f8d7534f435ce37406355e')}
-{u'_id': ObjectId('56f8d7534f435ce37306355e')}
-{u'_id': ObjectId('56f8d7534f435ce37406355f')}
-{u'_id': ObjectId('56f8d7534f435ce374063560')}
-{u'_id': ObjectId('56f8d7534f435ce37306355f')}
-{u'_id': ObjectId('56f8d7534f435ce374063561')}
-{u'_id': ObjectId('56f8d7534f435ce373063560')}
-{u'_id': ObjectId('56f8d7534f435ce373063561')}
-{u'_id': ObjectId('56f8d7534f435ce374063562')}
-{u'_id': ObjectId('56f8d7534f435ce373063562')}
-{u'_id': ObjectId('56f8d7534f435ce374063563')}
-{u'_id': ObjectId('56f8d7534f435ce373063563')}
-{u'_id': ObjectId('56f8d7534f435ce374063564')}
-{u'_id': ObjectId('56f8d7534f435ce374063565')}
-{u'_id': ObjectId('56f8d7534f435ce373063564')}
-{u'_id': ObjectId('56f8d7534f435ce374063566')}
-{u'_id': ObjectId('56f8d7534f435ce373063565')}
-{u'_id': ObjectId('56f8d7534f435ce374063567')}
-{u'_id': ObjectId('56f8d7534f435ce373063566')}
-{u'_id': ObjectId('56f8d7534f435ce373063567')}
-{u'_id': ObjectId('56f8d7534f435ce374063568')}
-{u'_id': ObjectId('56f8d7534f435ce374063569')}
-{u'_id': ObjectId('56f8d7534f435ce373063568')}
-{u'_id': ObjectId('56f8d7534f435ce37406356a')}
-{u'_id': ObjectId('56f8d7534f435ce373063569')}
-{u'_id': ObjectId('56f8d7534f435ce37406356b')}
-{u'_id': ObjectId('56f8d7534f435ce37306356a')}
-{u'_id': ObjectId('56f8d7534f435ce37406356c')}
-{u'_id': ObjectId('56f8d7534f435ce37306356b')}
-{u'_id': ObjectId('56f8d7534f435ce37406356d')}
-{u'_id': ObjectId('56f8d7534f435ce37306356c')}
-{u'_id': ObjectId('56f8d7534f435ce37406356e')}
-{u'_id': ObjectId('56f8d7534f435ce37306356d')}
-{u'_id': ObjectId('56f8d7534f435ce37306356e')}
-{u'_id': ObjectId('56f8d7534f435ce37406356f')}
-{u'_id': ObjectId('56f8d7534f435ce37306356f')}
-{u'_id': ObjectId('56f8d7534f435ce374063570')}
-{u'_id': ObjectId('56f8d7534f435ce373063570')}
-{u'_id': ObjectId('56f8d7534f435ce374063571')}
-{u'_id': ObjectId('56f8d7534f435ce373063571')}
-{u'_id': ObjectId('56f8d7534f435ce374063572')}
-{u'_id': ObjectId('56f8d7534f435ce373063572')}
-{u'_id': ObjectId('56f8d7534f435ce374063573')}
-{u'_id': ObjectId('56f8d7534f435ce373063573')}
-{u'_id': ObjectId('56f8d7534f435ce374063574')}
-{u'_id': ObjectId('56f8d7534f435ce373063574')}
-{u'_id': ObjectId('56f8d7534f435ce374063575')}
-{u'_id': ObjectId('56f8d7534f435ce373063575')}
-{u'_id': ObjectId('56f8d7534f435ce374063576')}
-{u'_id': ObjectId('56f8d7534f435ce373063576')}
-{u'_id': ObjectId('56f8d7534f435ce374063577')}
-{u'_id': ObjectId('56f8d7534f435ce373063577')}
-{u'_id': ObjectId('56f8d7534f435ce374063578')}
-{u'_id': ObjectId('56f8d7534f435ce373063578')}
-{u'_id': ObjectId('56f8d7534f435ce374063579')}
-{u'_id': ObjectId('56f8d7534f435ce373063579')}
-{u'_id': ObjectId('56f8d7534f435ce37406357a')}
-{u'_id': ObjectId('56f8d7534f435ce37306357a')}
-{u'_id': ObjectId('56f8d7534f435ce37306357b')}
-{u'_id': ObjectId('56f8d7534f435ce37406357b')}
-{u'_id': ObjectId('56f8d7534f435ce37406357c')}
-{u'_id': ObjectId('56f8d7534f435ce37306357c')}
-{u'_id': ObjectId('56f8d7534f435ce37406357d')}
-{u'_id': ObjectId('56f8d7534f435ce37306357d')}
-{u'_id': ObjectId('56f8d7534f435ce37406357e')}
-{u'_id': ObjectId('56f8d7534f435ce37306357e')}
-{u'_id': ObjectId('56f8d7534f435ce37306357f')}
-{u'_id': ObjectId('56f8d7534f435ce37406357f')}
-{u'_id': ObjectId('56f8d7534f435ce374063580')}
-{u'_id': ObjectId('56f8d7534f435ce373063580')}
-{u'_id': ObjectId('56f8d7534f435ce373063581')}
-{u'_id': ObjectId('56f8d7534f435ce374063581')}
-{u'_id': ObjectId('56f8d7534f435ce373063582')}
-{u'_id': ObjectId('56f8d7534f435ce374063582')}
-{u'_id': ObjectId('56f8d7534f435ce374063583')}
-{u'_id': ObjectId('56f8d7534f435ce373063583')}
-{u'_id': ObjectId('56f8d7534f435ce374063584')}
-{u'_id': ObjectId('56f8d7534f435ce373063584')}
-{u'_id': ObjectId('56f8d7534f435ce373063585')}
-{u'_id': ObjectId('56f8d7534f435ce374063585')}
-{u'_id': ObjectId('56f8d7534f435ce373063586')}
-{u'_id': ObjectId('56f8d7534f435ce374063586')}
-{u'_id': ObjectId('56f8d7534f435ce373063587')}
-{u'_id': ObjectId('56f8d7534f435ce374063587')}
-{u'_id': ObjectId('56f8d7534f435ce373063588')}
-{u'_id': ObjectId('56f8d7534f435ce374063588')}
-{u'_id': ObjectId('56f8d7534f435ce374063589')}
-{u'_id': ObjectId('56f8d7534f435ce373063589')}
-{u'_id': ObjectId('56f8d7534f435ce37306358a')}
-{u'_id': ObjectId('56f8d7534f435ce37406358a')}
-{u'_id': ObjectId('56f8d7534f435ce37306358b')}
-{u'_id': ObjectId('56f8d7534f435ce37406358b')}
-{u'_id': ObjectId('56f8d7534f435ce37406358c')}
-{u'_id': ObjectId('56f8d7534f435ce37306358c')}
-{u'_id': ObjectId('56f8d7534f435ce37406358d')}
-{u'_id': ObjectId('56f8d7534f435ce37306358d')}
-{u'_id': ObjectId('56f8d7534f435ce37406358e')}
-{u'_id': ObjectId('56f8d7534f435ce37306358e')}
-{u'_id': ObjectId('56f8d7534f435ce37406358f')}
-{u'_id': ObjectId('56f8d7534f435ce37306358f')}
-{u'_id': ObjectId('56f8d7534f435ce374063590')}
-{u'_id': ObjectId('56f8d7534f435ce373063590')}
-{u'_id': ObjectId('56f8d7534f435ce373063591')}
-{u'_id': ObjectId('56f8d7534f435ce374063591')}
-{u'_id': ObjectId('56f8d7534f435ce373063592')}
-{u'_id': ObjectId('56f8d7534f435ce374063592')}
-{u'_id': ObjectId('56f8d7534f435ce373063593')}
-{u'_id': ObjectId('56f8d7534f435ce374063593')}
-{u'_id': ObjectId('56f8d7534f435ce374063594')}
-{u'_id': ObjectId('56f8d7534f435ce373063594')}
-{u'_id': ObjectId('56f8d7534f435ce373063595')}
-{u'_id': ObjectId('56f8d7534f435ce374063595')}
-{u'_id': ObjectId('56f8d7534f435ce374063596')}
-{u'_id': ObjectId('56f8d7534f435ce373063596')}
-{u'_id': ObjectId('56f8d7534f435ce374063597')}
-{u'_id': ObjectId('56f8d7534f435ce373063597')}
-{u'_id': ObjectId('56f8d7534f435ce374063598')}
-{u'_id': ObjectId('56f8d7534f435ce373063598')}
-{u'_id': ObjectId('56f8d7534f435ce374063599')}
-{u'_id': ObjectId('56f8d7534f435ce373063599')}
-{u'_id': ObjectId('56f8d7534f435ce37406359a')}
-{u'_id': ObjectId('56f8d7534f435ce37306359a')}
-{u'_id': ObjectId('56f8d7534f435ce37306359b')}
-{u'_id': ObjectId('56f8d7534f435ce37406359b')}
-{u'_id': ObjectId('56f8d7534f435ce37406359c')}
-{u'_id': ObjectId('56f8d7534f435ce37306359c')}
-{u'_id': ObjectId('56f8d7534f435ce37406359d')}
-{u'_id': ObjectId('56f8d7534f435ce37306359d')}
-{u'_id': ObjectId('56f8d7534f435ce37306359e')}
-{u'_id': ObjectId('56f8d7534f435ce37406359e')}
-{u'_id': ObjectId('56f8d7534f435ce37406359f')}
-{u'_id': ObjectId('56f8d7534f435ce37306359f')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a0')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a0')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a1')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a1')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a2')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a2')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a3')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a3')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a4')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a4')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a5')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a5')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a6')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a6')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a7')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a7')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a8')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a8')}
-{u'_id': ObjectId('56f8d7534f435ce3740635a9')}
-{u'_id': ObjectId('56f8d7534f435ce3730635a9')}
-{u'_id': ObjectId('56f8d7534f435ce3740635aa')}
-{u'_id': ObjectId('56f8d7534f435ce3730635aa')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ab')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ab')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ac')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ac')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ad')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ad')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ae')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ae')}
-{u'_id': ObjectId('56f8d7534f435ce3730635af')}
-{u'_id': ObjectId('56f8d7534f435ce3740635af')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b0')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b0')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b1')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b1')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b2')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b2')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b3')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b3')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b4')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b4')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b5')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b5')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b6')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b6')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b7')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b7')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b8')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b8')}
-{u'_id': ObjectId('56f8d7534f435ce3730635b9')}
-{u'_id': ObjectId('56f8d7534f435ce3740635b9')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ba')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ba')}
-{u'_id': ObjectId('56f8d7534f435ce3740635bb')}
-{u'_id': ObjectId('56f8d7534f435ce3730635bb')}
-{u'_id': ObjectId('56f8d7534f435ce3730635bc')}
-{u'_id': ObjectId('56f8d7534f435ce3740635bc')}
-{u'_id': ObjectId('56f8d7534f435ce3740635bd')}
-{u'_id': ObjectId('56f8d7534f435ce3730635bd')}
-{u'_id': ObjectId('56f8d7534f435ce3730635be')}
-{u'_id': ObjectId('56f8d7534f435ce3740635be')}
-{u'_id': ObjectId('56f8d7534f435ce3730635bf')}
-{u'_id': ObjectId('56f8d7534f435ce3740635bf')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c0')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c0')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c1')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c1')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c2')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c2')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c3')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c3')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c4')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c4')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c5')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c5')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c6')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c6')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c7')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c7')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c8')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c8')}
-{u'_id': ObjectId('56f8d7534f435ce3740635c9')}
-{u'_id': ObjectId('56f8d7534f435ce3730635c9')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ca')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ca')}
-{u'_id': ObjectId('56f8d7534f435ce3740635cb')}
-{u'_id': ObjectId('56f8d7534f435ce3730635cb')}
-{u'_id': ObjectId('56f8d7534f435ce3740635cc')}
-{u'_id': ObjectId('56f8d7534f435ce3730635cc')}
-{u'_id': ObjectId('56f8d7534f435ce3740635cd')}
-{u'_id': ObjectId('56f8d7534f435ce3730635cd')}
-{u'_id': ObjectId('56f8d7534f435ce3740635ce')}
-{u'_id': ObjectId('56f8d7534f435ce3730635ce')}
-{u'_id': ObjectId('56f8d7534f435ce3740635cf')}
-{u'_id': ObjectId('56f8d7534f435ce3730635cf')}
-{u'_id': ObjectId('56f8d7534f435ce3740635d0')}
-{u'_id': ObjectId('56f8d7534f435ce3730635d0')}
-{u'_id': ObjectId('56f8d7534f435ce3740635d1')}
-{u'_id': ObjectId('56f8d7534f435ce3730635d1')}
-{u'_id': ObjectId('56f8d7534f435ce3730635d2')}
-{u'_id': ObjectId('56f8d7534f435ce3740635d2')}
-{u'_id': ObjectId('56f8d7534f435ce3730635d3')}
-{u'_id': ObjectId('56f8d7534f435ce3740635d3')}
-{u'_id': ObjectId('56f8d7534f435ce3740635d4')}
-{u'_id': ObjectId('56f8d7534f435ce3730635d4')}
-{u'_id': ObjectId('56f8d7534f435ce3740635d5')}
-{u'_id': ObjectId('56f8d7534f435ce3730635d5')}
-{u'_id': ObjectId('56f8d7544f435ce3730635d6')}
-{u'_id': ObjectId('56f8d7544f435ce3740635d6')}
-{u'_id': ObjectId('56f8d7544f435ce3730635d7')}
-{u'_id': ObjectId('56f8d7544f435ce3740635d7')}
-{u'_id': ObjectId('56f8d7544f435ce3730635d8')}
-{u'_id': ObjectId('56f8d7544f435ce3740635d8')}
-{u'_id': ObjectId('56f8d7544f435ce3730635d9')}
-{u'_id': ObjectId('56f8d7544f435ce3740635d9')}
-{u'_id': ObjectId('56f8d7544f435ce3740635da')}
-{u'_id': ObjectId('56f8d7544f435ce3730635da')}
-{u'_id': ObjectId('56f8d7544f435ce3730635db')}
-{u'_id': ObjectId('56f8d7544f435ce3740635db')}
-{u'_id': ObjectId('56f8d7544f435ce3740635dc')}
-{u'_id': ObjectId('56f8d7544f435ce3730635dc')}
-{u'_id': ObjectId('56f8d7544f435ce3730635dd')}
-{u'_id': ObjectId('56f8d7544f435ce3740635dd')}
-{u'_id': ObjectId('56f8d7544f435ce3740635de')}
-{u'_id': ObjectId('56f8d7544f435ce3730635de')}
-{u'_id': ObjectId('56f8d7544f435ce3740635df')}
-{u'_id': ObjectId('56f8d7544f435ce3730635df')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e0')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e0')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e1')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e1')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e2')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e2')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e3')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e3')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e4')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e4')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e5')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e5')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e6')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e6')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e7')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e7')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e8')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e8')}
-{u'_id': ObjectId('56f8d7544f435ce3740635e9')}
-{u'_id': ObjectId('56f8d7544f435ce3730635e9')}
-{u'_id': ObjectId('56f8d7544f435ce3740635ea')}
-{u'_id': ObjectId('56f8d7544f435ce3730635ea')}
-{u'_id': ObjectId('56f8d7544f435ce3730635eb')}
-{u'_id': ObjectId('56f8d7544f435ce3740635eb')}
-{u'_id': ObjectId('56f8d7544f435ce3740635ec')}
-{u'_id': ObjectId('56f8d7544f435ce3730635ec')}
-{u'_id': ObjectId('56f8d7544f435ce3730635ed')}
-{u'_id': ObjectId('56f8d7544f435ce3740635ed')}
-{u'_id': ObjectId('56f8d7544f435ce3730635ee')}
-{u'_id': ObjectId('56f8d7544f435ce3740635ee')}
-{u'_id': ObjectId('56f8d7544f435ce3730635ef')}
-{u'_id': ObjectId('56f8d7544f435ce3740635ef')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f0')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f0')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f1')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f1')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f2')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f2')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f3')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f3')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f4')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f4')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f5')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f5')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f6')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f6')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f7')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f7')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f8')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f8')}
-{u'_id': ObjectId('56f8d7544f435ce3740635f9')}
-{u'_id': ObjectId('56f8d7544f435ce3730635f9')}
-{u'_id': ObjectId('56f8d7544f435ce3740635fa')}
-{u'_id': ObjectId('56f8d7544f435ce3730635fa')}
-{u'_id': ObjectId('56f8d7544f435ce3740635fb')}
-{u'_id': ObjectId('56f8d7544f435ce3730635fb')}
-{u'_id': ObjectId('56f8d7544f435ce3730635fc')}
-{u'_id': ObjectId('56f8d7544f435ce3740635fc')}
-{u'_id': ObjectId('56f8d7544f435ce3740635fd')}
-{u'_id': ObjectId('56f8d7544f435ce3730635fd')}
-{u'_id': ObjectId('56f8d7544f435ce3740635fe')}
-{u'_id': ObjectId('56f8d7544f435ce3730635fe')}
-{u'_id': ObjectId('56f8d7544f435ce3740635ff')}
-{u'_id': ObjectId('56f8d7544f435ce3730635ff')}
-{u'_id': ObjectId('56f8d7544f435ce374063600')}
-{u'_id': ObjectId('56f8d7544f435ce373063600')}
-{u'_id': ObjectId('56f8d7544f435ce373063601')}
-{u'_id': ObjectId('56f8d7544f435ce373063602')}
-{u'_id': ObjectId('56f8d7544f435ce373063603')}
-{u'_id': ObjectId('56f8d7544f435ce374063601')}
-{u'_id': ObjectId('56f8d7544f435ce374063602')}
-{u'_id': ObjectId('56f8d7544f435ce373063604')}
-{u'_id': ObjectId('56f8d7544f435ce373063605')}
-{u'_id': ObjectId('56f8d7544f435ce374063603')}
-{u'_id': ObjectId('56f8d7544f435ce373063606')}
-{u'_id': ObjectId('56f8d7544f435ce374063604')}
-{u'_id': ObjectId('56f8d7544f435ce373063607')}
-{u'_id': ObjectId('56f8d7544f435ce374063605')}
-{u'_id': ObjectId('56f8d7544f435ce373063608')}
-{u'_id': ObjectId('56f8d7544f435ce374063606')}
-{u'_id': ObjectId('56f8d7544f435ce373063609')}
-{u'_id': ObjectId('56f8d7544f435ce374063607')}
-{u'_id': ObjectId('56f8d7544f435ce37306360a')}
-{u'_id': ObjectId('56f8d7544f435ce374063608')}
-{u'_id': ObjectId('56f8d7544f435ce374063609')}
-{u'_id': ObjectId('56f8d7544f435ce37306360b')}
-{u'_id': ObjectId('56f8d7544f435ce37406360a')}
-{u'_id': ObjectId('56f8d7544f435ce37306360c')}
-{u'_id': ObjectId('56f8d7544f435ce37406360b')}
-{u'_id': ObjectId('56f8d7544f435ce37306360d')}
-{u'_id': ObjectId('56f8d7544f435ce37406360c')}
-{u'_id': ObjectId('56f8d7544f435ce37306360e')}
-{u'_id': ObjectId('56f8d7544f435ce37306360f')}
-{u'_id': ObjectId('56f8d7544f435ce37406360d')}
-{u'_id': ObjectId('56f8d7544f435ce373063610')}
-{u'_id': ObjectId('56f8d7544f435ce37406360e')}
-{u'_id': ObjectId('56f8d7544f435ce373063611')}
-{u'_id': ObjectId('56f8d7544f435ce37406360f')}
-{u'_id': ObjectId('56f8d7544f435ce373063612')}
-{u'_id': ObjectId('56f8d7544f435ce374063610')}
-{u'_id': ObjectId('56f8d7544f435ce373063613')}
-{u'_id': ObjectId('56f8d7544f435ce374063611')}
-{u'_id': ObjectId('56f8d7544f435ce373063614')}
-{u'_id': ObjectId('56f8d7544f435ce374063612')}
-{u'_id': ObjectId('56f8d7544f435ce373063615')}
-{u'_id': ObjectId('56f8d7544f435ce374063613')}
-{u'_id': ObjectId('56f8d7544f435ce373063616')}
-{u'_id': ObjectId('56f8d7544f435ce374063614')}
-{u'_id': ObjectId('56f8d7544f435ce373063617')}
-{u'_id': ObjectId('56f8d7544f435ce374063615')}
-{u'_id': ObjectId('56f8d7544f435ce373063618')}
-{u'_id': ObjectId('56f8d7544f435ce374063616')}
-{u'_id': ObjectId('56f8d7544f435ce373063619')}
-{u'_id': ObjectId('56f8d7544f435ce374063617')}
-{u'_id': ObjectId('56f8d7544f435ce37306361a')}
-{u'_id': ObjectId('56f8d7544f435ce374063618')}
-{u'_id': ObjectId('56f8d7544f435ce37306361b')}
-{u'_id': ObjectId('56f8d7544f435ce374063619')}
-{u'_id': ObjectId('56f8d7544f435ce37306361c')}
-{u'_id': ObjectId('56f8d7544f435ce37406361a')}
-{u'_id': ObjectId('56f8d7544f435ce37306361d')}
-{u'_id': ObjectId('56f8d7544f435ce37406361b')}
-{u'_id': ObjectId('56f8d7544f435ce37306361e')}
-{u'_id': ObjectId('56f8d7544f435ce37406361c')}
-{u'_id': ObjectId('56f8d7544f435ce37306361f')}
-{u'_id': ObjectId('56f8d7544f435ce37406361d')}
-{u'_id': ObjectId('56f8d7544f435ce373063620')}
-{u'_id': ObjectId('56f8d7544f435ce37406361e')}
-{u'_id': ObjectId('56f8d7544f435ce373063621')}
-{u'_id': ObjectId('56f8d7544f435ce37406361f')}
-{u'_id': ObjectId('56f8d7544f435ce373063622')}
-{u'_id': ObjectId('56f8d7544f435ce374063620')}
-{u'_id': ObjectId('56f8d7544f435ce373063623')}
-{u'_id': ObjectId('56f8d7544f435ce374063621')}
-{u'_id': ObjectId('56f8d7544f435ce373063624')}
-{u'_id': ObjectId('56f8d7544f435ce374063622')}
-{u'_id': ObjectId('56f8d7544f435ce373063625')}
-{u'_id': ObjectId('56f8d7544f435ce374063623')}
-{u'_id': ObjectId('56f8d7544f435ce373063626')}
-{u'_id': ObjectId('56f8d7544f435ce374063624')}
-{u'_id': ObjectId('56f8d7544f435ce373063627')}
-{u'_id': ObjectId('56f8d7544f435ce374063625')}
-{u'_id': ObjectId('56f8d7544f435ce373063628')}
-{u'_id': ObjectId('56f8d7544f435ce374063626')}
-{u'_id': ObjectId('56f8d7544f435ce373063629')}
-{u'_id': ObjectId('56f8d7544f435ce374063627')}
-{u'_id': ObjectId('56f8d7544f435ce374063628')}
-{u'_id': ObjectId('56f8d7544f435ce37306362a')}
-{u'_id': ObjectId('56f8d7544f435ce37306362b')}
-{u'_id': ObjectId('56f8d7544f435ce374063629')}
-{u'_id': ObjectId('56f8d7544f435ce37406362a')}
-{u'_id': ObjectId('56f8d7544f435ce37306362c')}
-{u'_id': ObjectId('56f8d7544f435ce37306362d')}
-{u'_id': ObjectId('56f8d7544f435ce37406362b')}
-{u'_id': ObjectId('56f8d7544f435ce37306362e')}
-{u'_id': ObjectId('56f8d7544f435ce37406362c')}
-{u'_id': ObjectId('56f8d7544f435ce37306362f')}
-{u'_id': ObjectId('56f8d7544f435ce37406362d')}
-{u'_id': ObjectId('56f8d7544f435ce373063630')}
-{u'_id': ObjectId('56f8d7544f435ce37406362e')}
-{u'_id': ObjectId('56f8d7544f435ce37406362f')}
-{u'_id': ObjectId('56f8d7544f435ce373063631')}
-{u'_id': ObjectId('56f8d7544f435ce373063632')}
-{u'_id': ObjectId('56f8d7544f435ce374063630')}
-{u'_id': ObjectId('56f8d7544f435ce374063631')}
-{u'_id': ObjectId('56f8d7544f435ce373063633')}
-{u'_id': ObjectId('56f8d7544f435ce373063634')}
-{u'_id': ObjectId('56f8d7544f435ce374063632')}
-{u'_id': ObjectId('56f8d7544f435ce374063633')}
-{u'_id': ObjectId('56f8d7544f435ce373063635')}
-{u'_id': ObjectId('56f8d7544f435ce373063636')}
-{u'_id': ObjectId('56f8d7544f435ce374063634')}
-{u'_id': ObjectId('56f8d7544f435ce374063635')}
-{u'_id': ObjectId('56f8d7544f435ce373063637')}
-{u'_id': ObjectId('56f8d7544f435ce374063636')}
-{u'_id': ObjectId('56f8d7544f435ce373063638')}
-{u'_id': ObjectId('56f8d7544f435ce373063639')}
-{u'_id': ObjectId('56f8d7544f435ce374063637')}
-{u'_id': ObjectId('56f8d7544f435ce374063638')}
-{u'_id': ObjectId('56f8d7544f435ce37306363a')}
-{u'_id': ObjectId('56f8d7544f435ce37306363b')}
-{u'_id': ObjectId('56f8d7544f435ce374063639')}
-{u'_id': ObjectId('56f8d7544f435ce37306363c')}
-{u'_id': ObjectId('56f8d7544f435ce37406363a')}
-{u'_id': ObjectId('56f8d7544f435ce37406363b')}
-{u'_id': ObjectId('56f8d7544f435ce37306363d')}
-{u'_id': ObjectId('56f8d7544f435ce37306363e')}
-{u'_id': ObjectId('56f8d7544f435ce37406363c')}
-{u'_id': ObjectId('56f8d7544f435ce37406363d')}
-{u'_id': ObjectId('56f8d7544f435ce37306363f')}
-{u'_id': ObjectId('56f8d7544f435ce373063640')}
-{u'_id': ObjectId('56f8d7544f435ce37406363e')}
-{u'_id': ObjectId('56f8d7544f435ce37406363f')}
-{u'_id': ObjectId('56f8d7544f435ce373063641')}
-{u'_id': ObjectId('56f8d7544f435ce374063640')}
-{u'_id': ObjectId('56f8d7544f435ce373063642')}
-{u'_id': ObjectId('56f8d7544f435ce373063643')}
-{u'_id': ObjectId('56f8d7544f435ce374063641')}
-{u'_id': ObjectId('56f8d7544f435ce373063644')}
-{u'_id': ObjectId('56f8d7544f435ce374063642')}
-{u'_id': ObjectId('56f8d7544f435ce373063645')}
-{u'_id': ObjectId('56f8d7544f435ce374063643')}
-{u'_id': ObjectId('56f8d7544f435ce373063646')}
-{u'_id': ObjectId('56f8d7544f435ce374063644')}
-{u'_id': ObjectId('56f8d7544f435ce373063647')}
-{u'_id': ObjectId('56f8d7544f435ce374063645')}
-{u'_id': ObjectId('56f8d7544f435ce373063648')}
-{u'_id': ObjectId('56f8d7544f435ce374063646')}
-{u'_id': ObjectId('56f8d7544f435ce374063647')}
-{u'_id': ObjectId('56f8d7544f435ce373063649')}
-{u'_id': ObjectId('56f8d7544f435ce374063648')}
-{u'_id': ObjectId('56f8d7544f435ce37306364a')}
-{u'_id': ObjectId('56f8d7544f435ce37306364b')}
-{u'_id': ObjectId('56f8d7544f435ce374063649')}
-{u'_id': ObjectId('56f8d7544f435ce37406364a')}
-{u'_id': ObjectId('56f8d7544f435ce37306364c')}
-{u'_id': ObjectId('56f8d7544f435ce37306364d')}
-{u'_id': ObjectId('56f8d7544f435ce37406364b')}
-{u'_id': ObjectId('56f8d7544f435ce37306364e')}
-{u'_id': ObjectId('56f8d7544f435ce37406364c')}
-{u'_id': ObjectId('56f8d7544f435ce37406364d')}
-{u'_id': ObjectId('56f8d7544f435ce37306364f')}
-{u'_id': ObjectId('56f8d7544f435ce373063650')}
-{u'_id': ObjectId('56f8d7544f435ce37406364e')}
-{u'_id': ObjectId('56f8d7544f435ce373063651')}
-{u'_id': ObjectId('56f8d7544f435ce37406364f')}
-{u'_id': ObjectId('56f8d7544f435ce373063652')}
-{u'_id': ObjectId('56f8d7544f435ce374063650')}
-{u'_id': ObjectId('56f8d7544f435ce373063653')}
-{u'_id': ObjectId('56f8d7544f435ce374063651')}
-{u'_id': ObjectId('56f8d7544f435ce373063654')}
-{u'_id': ObjectId('56f8d7544f435ce374063652')}
-{u'_id': ObjectId('56f8d7544f435ce374063653')}
-{u'_id': ObjectId('56f8d7544f435ce373063655')}
-{u'_id': ObjectId('56f8d7544f435ce373063656')}
-{u'_id': ObjectId('56f8d7544f435ce374063654')}
-{u'_id': ObjectId('56f8d7544f435ce373063657')}
-{u'_id': ObjectId('56f8d7544f435ce374063655')}
-{u'_id': ObjectId('56f8d7544f435ce373063658')}
-{u'_id': ObjectId('56f8d7544f435ce374063656')}
-{u'_id': ObjectId('56f8d7544f435ce373063659')}
-{u'_id': ObjectId('56f8d7544f435ce374063657')}
-{u'_id': ObjectId('56f8d7544f435ce37306365a')}
-{u'_id': ObjectId('56f8d7544f435ce374063658')}
-{u'_id': ObjectId('56f8d7544f435ce37306365b')}
-{u'_id': ObjectId('56f8d7544f435ce374063659')}
-{u'_id': ObjectId('56f8d7544f435ce37306365c')}
-{u'_id': ObjectId('56f8d7544f435ce37406365a')}
-{u'_id': ObjectId('56f8d7544f435ce37406365b')}
-{u'_id': ObjectId('56f8d7544f435ce37306365d')}
-{u'_id': ObjectId('56f8d7544f435ce37406365c')}
-{u'_id': ObjectId('56f8d7544f435ce37306365e')}
-{u'_id': ObjectId('56f8d7544f435ce37306365f')}
-{u'_id': ObjectId('56f8d7544f435ce37406365d')}
-{u'_id': ObjectId('56f8d7544f435ce373063660')}
-{u'_id': ObjectId('56f8d7544f435ce373063661')}
-{u'_id': ObjectId('56f8d7544f435ce373063662')}
-{u'_id': ObjectId('56f8d7544f435ce373063663')}
-{u'_id': ObjectId('56f8d7544f435ce373063664')}
-{u'_id': ObjectId('56f8d7544f435ce373063665')}
-{u'_id': ObjectId('56f8d7544f435ce373063666')}
-{u'_id': ObjectId('56f8d7544f435ce373063667')}
-{u'_id': ObjectId('56f8d7544f435ce373063668')}
-{u'_id': ObjectId('56f8d7544f435ce373063669')}
-{u'_id': ObjectId('56f8d7544f435ce37306366a')}
-{u'_id': ObjectId('56f8d7544f435ce37306366b')}
-{u'_id': ObjectId('56f8d7544f435ce37306366c')}
-{u'_id': ObjectId('56f8d7544f435ce37306366d')}
-{u'_id': ObjectId('56f8d7544f435ce37306366e')}
-{u'_id': ObjectId('56f8d7544f435ce37306366f')}
-{u'_id': ObjectId('56f8d7544f435ce373063670')}
-{u'_id': ObjectId('56f8d7544f435ce373063671')}
-{u'_id': ObjectId('56f8d7544f435ce373063672')}
-{u'_id': ObjectId('56f8d7544f435ce373063673')}
-{u'_id': ObjectId('56f8d7544f435ce373063674')}
-{u'_id': ObjectId('56f8d7544f435ce373063675')}
-{u'_id': ObjectId('56f8d7544f435ce373063676')}
-{u'_id': ObjectId('56f8d7544f435ce373063677')}
-{u'_id': ObjectId('56f8d7544f435ce373063678')}
-{u'_id': ObjectId('56f8d7544f435ce373063679')}
-{u'_id': ObjectId('56f8d7544f435ce37306367a')}
-{u'_id': ObjectId('56f8d7544f435ce37306367b')}
-{u'_id': ObjectId('56f8d7544f435ce37306367c')}
-{u'_id': ObjectId('56f8d7544f435ce37306367d')}
-{u'_id': ObjectId('56f8d7544f435ce37306367e')}
-{u'_id': ObjectId('56f8d7544f435ce37306367f')}
-{u'_id': ObjectId('56f8d7544f435ce373063680')}
-{u'_id': ObjectId('56f8d7544f435ce373063681')}
-{u'_id': ObjectId('56f8d7544f435ce373063682')}
-{u'_id': ObjectId('56f8d7544f435ce373063683')}
-{u'_id': ObjectId('56f8d7544f435ce373063684')}
-{u'_id': ObjectId('56f8d7544f435ce373063685')}
-{u'_id': ObjectId('56f8d7544f435ce373063686')}
-{u'_id': ObjectId('56f8d7544f435ce373063687')}
-{u'_id': ObjectId('56f8d7544f435ce373063688')}
-{u'_id': ObjectId('56f8d7544f435ce373063689')}
-{u'_id': ObjectId('56f8d7544f435ce37306368a')}
-{u'_id': ObjectId('56f8d7544f435ce37306368b')}
-{u'_id': ObjectId('56f8d7544f435ce37306368c')}
-{u'_id': ObjectId('56f8d7544f435ce37306368d')}
-{u'_id': ObjectId('56f8d7544f435ce37306368e')}
-{u'_id': ObjectId('56f8d7544f435ce37306368f')}
-{u'_id': ObjectId('56f8d7544f435ce373063690')}
-{u'_id': ObjectId('56f8d7544f435ce373063691')}
-{u'_id': ObjectId('56f8d7544f435ce373063692')}
-{u'_id': ObjectId('56f8d7544f435ce373063693')}
-{u'_id': ObjectId('56f8d7544f435ce373063694')}
-{u'_id': ObjectId('56f8d7554f435ce373063695')}
-{u'_id': ObjectId('56f8d7554f435ce373063696')}
-{u'_id': ObjectId('56f8d7554f435ce373063697')}
-{u'_id': ObjectId('56f8d7554f435ce373063698')}
-{u'_id': ObjectId('56f8d7554f435ce373063699')}
-{u'_id': ObjectId('56f8d7554f435ce37306369a')}
-{u'_id': ObjectId('56f8d7554f435ce37306369b')}
-{u'_id': ObjectId('56f8d7554f435ce37306369c')}
-{u'_id': ObjectId('56f8d7554f435ce37306369d')}
-{u'_id': ObjectId('56f8d7554f435ce37306369e')}
-{u'_id': ObjectId('56f8d7554f435ce37306369f')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a0')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a1')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a2')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a3')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a4')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a5')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a6')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a7')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a8')}
-{u'_id': ObjectId('56f8d7554f435ce3730636a9')}
-{u'_id': ObjectId('56f8d7554f435ce3730636aa')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ab')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ac')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ad')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ae')}
-{u'_id': ObjectId('56f8d7554f435ce3730636af')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b0')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b1')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b2')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b3')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b4')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b5')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b6')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b7')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b8')}
-{u'_id': ObjectId('56f8d7554f435ce3730636b9')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ba')}
-{u'_id': ObjectId('56f8d7554f435ce3730636bb')}
-{u'_id': ObjectId('56f8d7554f435ce3730636bc')}
-{u'_id': ObjectId('56f8d7554f435ce3730636bd')}
-{u'_id': ObjectId('56f8d7554f435ce3730636be')}
-{u'_id': ObjectId('56f8d7554f435ce3730636bf')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c0')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c1')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c2')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c3')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c4')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c5')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c6')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c7')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c8')}
-{u'_id': ObjectId('56f8d7554f435ce3730636c9')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ca')}
-{u'_id': ObjectId('56f8d7554f435ce3730636cb')}
-{u'_id': ObjectId('56f8d7554f435ce3730636cc')}
-{u'_id': ObjectId('56f8d7554f435ce3730636cd')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ce')}
-{u'_id': ObjectId('56f8d7554f435ce3730636cf')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d0')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d1')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d2')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d3')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d4')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d5')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d6')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d7')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d8')}
-{u'_id': ObjectId('56f8d7554f435ce3730636d9')}
-{u'_id': ObjectId('56f8d7554f435ce3730636da')}
-{u'_id': ObjectId('56f8d7554f435ce3730636db')}
-{u'_id': ObjectId('56f8d7554f435ce3730636dc')}
-{u'_id': ObjectId('56f8d7554f435ce3730636dd')}
-{u'_id': ObjectId('56f8d7554f435ce3730636de')}
-{u'_id': ObjectId('56f8d7554f435ce3730636df')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e0')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e1')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e2')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e3')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e4')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e5')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e6')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e7')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e8')}
-{u'_id': ObjectId('56f8d7554f435ce3730636e9')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ea')}
-{u'_id': ObjectId('56f8d7554f435ce3730636eb')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ec')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ed')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ee')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ef')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f0')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f1')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f2')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f3')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f4')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f5')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f6')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f7')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f8')}
-{u'_id': ObjectId('56f8d7554f435ce3730636f9')}
-{u'_id': ObjectId('56f8d7554f435ce3730636fa')}
-{u'_id': ObjectId('56f8d7554f435ce3730636fb')}
-{u'_id': ObjectId('56f8d7554f435ce3730636fc')}
-{u'_id': ObjectId('56f8d7554f435ce3730636fd')}
-{u'_id': ObjectId('56f8d7554f435ce3730636fe')}
-{u'_id': ObjectId('56f8d7554f435ce3730636ff')}
-{u'_id': ObjectId('56f8d7554f435ce373063700')}
-{u'_id': ObjectId('56f8d7554f435ce373063701')}
-{u'_id': ObjectId('56f8d7554f435ce373063702')}
+{u'10': 199.841, u'3': 0, u'5': 1, u'4': 1, u'9': 7.0, u'_id': ObjectId('56f953cf4f435c2503469cea')}
+{u'10': 199.841, u'3': 0, u'5': 1, u'4': 1, u'9': 7.0, u'_id': ObjectId('56f953cf4f435c2503469ceb')}
+{u'10': 199.841, u'3': 0, u'5': 1, u'4': 1, u'9': 7.0, u'_id': ObjectId('56f953cf4f435c2503469cec')}
+{u'10': 834.134, u'3': 0, u'5': 10, u'4': 1, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469ced')}
+{u'10': 834.134, u'3': 0, u'5': 10, u'4': 1, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469cee')}
+{u'10': 834.134, u'3': 0, u'5': 10, u'4': 1, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469cef')}
+{u'10': 578.774, u'3': 0, u'5': 11, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cf0')}
+{u'10': 578.774, u'3': 0, u'5': 11, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cf1')}
+{u'10': 578.774, u'3': 0, u'5': 11, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cf2')}
+{u'10': 887.405, u'3': 0, u'5': 15, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cf3')}
+{u'10': 887.405, u'3': 0, u'5': 15, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cf4')}
+{u'10': 887.405, u'3': 0, u'5': 15, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cf5')}
+{u'10': 988.15, u'3': 0, u'5': 18, u'4': 1, u'9': 28.0, u'_id': ObjectId('56f953cf4f435c2503469cf6')}
+{u'10': 988.15, u'3': 0, u'5': 18, u'4': 1, u'9': 28.0, u'_id': ObjectId('56f953cf4f435c2503469cf7')}
+{u'10': 988.15, u'3': 0, u'5': 18, u'4': 1, u'9': 28.0, u'_id': ObjectId('56f953cf4f435c2503469cf8')}
+{u'10': 383.997, u'3': 0, u'5': 34, u'4': 1, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469cf9')}
+{u'10': 383.997, u'3': 0, u'5': 34, u'4': 1, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469cfa')}
+{u'10': 383.997, u'3': 0, u'5': 34, u'4': 1, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469cfb')}
+{u'10': 490.775, u'3': 0, u'5': 36, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cfc')}
+{u'10': 490.775, u'3': 0, u'5': 36, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cfd')}
+{u'10': 490.775, u'3': 0, u'5': 36, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469cfe')}
+{u'10': 634.594, u'3': 0, u'5': 39, u'4': 1, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469cff')}
+{u'10': 634.594, u'3': 0, u'5': 39, u'4': 1, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d00')}
+{u'10': 634.594, u'3': 0, u'5': 39, u'4': 1, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d01')}
+{u'10': 754.418, u'3': 0, u'5': 42, u'4': 1, u'9': 3.0, u'_id': ObjectId('56f953cf4f435c2503469d02')}
+{u'10': 754.418, u'3': 0, u'5': 42, u'4': 1, u'9': 3.0, u'_id': ObjectId('56f953cf4f435c2503469d03')}
+{u'10': 754.418, u'3': 0, u'5': 42, u'4': 1, u'9': 3.0, u'_id': ObjectId('56f953cf4f435c2503469d04')}
+{u'10': 794.11, u'3': 0, u'5': 47, u'4': 1, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d05')}
+{u'10': 794.11, u'3': 0, u'5': 47, u'4': 1, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d06')}
+{u'10': 794.11, u'3': 0, u'5': 47, u'4': 1, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d07')}
+{u'10': 643.338, u'3': 0, u'5': 50, u'4': 1, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469d08')}
+{u'10': 643.338, u'3': 0, u'5': 50, u'4': 1, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469d09')}
+{u'10': 643.338, u'3': 0, u'5': 50, u'4': 1, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469d0a')}
+{u'10': 116.599, u'3': 0, u'5': 51, u'4': 2, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d0b')}
+{u'10': 116.599, u'3': 0, u'5': 51, u'4': 2, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d0c')}
+{u'10': 116.599, u'3': 0, u'5': 51, u'4': 2, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d0d')}
+{u'10': 362.746, u'3': 0, u'5': 52, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d0e')}
+{u'10': 362.746, u'3': 0, u'5': 52, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d0f')}
+{u'10': 362.746, u'3': 0, u'5': 52, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d10')}
+{u'10': 686.159, u'3': 0, u'5': 53, u'4': 2, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d11')}
+{u'10': 406.81, u'3': 0, u'5': 53, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469d12')}
+{u'10': 1092.969, u'3': 0, u'5': 53, u'4': 2, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d13')}
+{u'10': 1092.969, u'3': 0, u'5': 53, u'4': 2, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d14')}
+{u'10': 350.717, u'3': 0, u'5': 55, u'4': 2, u'9': 29.0, u'_id': ObjectId('56f953cf4f435c2503469d15')}
+{u'10': 350.717, u'3': 0, u'5': 55, u'4': 2, u'9': 29.0, u'_id': ObjectId('56f953cf4f435c2503469d16')}
+{u'10': 350.717, u'3': 0, u'5': 55, u'4': 2, u'9': 29.0, u'_id': ObjectId('56f953cf4f435c2503469d17')}
+{u'10': 909.528, u'3': 0, u'5': 56, u'4': 2, u'9': 38.0, u'_id': ObjectId('56f953cf4f435c2503469d18')}
+{u'10': 909.528, u'3': 0, u'5': 56, u'4': 2, u'9': 38.0, u'_id': ObjectId('56f953cf4f435c2503469d19')}
+{u'10': 834.997, u'3': 0, u'5': 56, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d1a')}
+{u'10': 834.997, u'3': 0, u'5': 56, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d1b')}
+{u'10': 1744.525, u'3': 0, u'5': 56, u'4': 2, u'9': 43.0, u'_id': ObjectId('56f953cf4f435c2503469d1c')}
+{u'10': 834.462, u'3': 0, u'5': 57, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d1d')}
+{u'10': 544.978, u'3': 0, u'5': 57, u'4': 2, u'9': 8.0, u'_id': ObjectId('56f953cf4f435c2503469d1e')}
+{u'10': 1379.44, u'3': 0, u'5': 57, u'4': 2, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469d1f')}
+{u'10': 1379.44, u'3': 0, u'5': 57, u'4': 2, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469d20')}
+{u'10': 857.03, u'3': 0, u'5': 58, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469d21')}
+{u'10': 857.03, u'3': 0, u'5': 58, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469d22')}
+{u'10': 227.891, u'3': 0, u'5': 58, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d23')}
+{u'10': 227.891, u'3': 0, u'5': 58, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d24')}
+{u'10': 1084.921, u'3': 0, u'5': 58, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d25')}
+{u'10': 256.708, u'3': 0, u'5': 59, u'4': 2, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d26')}
+{u'10': 256.708, u'3': 0, u'5': 59, u'4': 2, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d27')}
+{u'10': 972.67, u'3': 0, u'5': 59, u'4': 2, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469d28')}
+{u'10': 972.67, u'3': 0, u'5': 59, u'4': 2, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469d29')}
+{u'10': 1229.378, u'3': 0, u'5': 59, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d2a')}
+{u'10': 280.146, u'3': 0, u'5': 62, u'4': 3, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469d2b')}
+{u'10': 280.146, u'3': 0, u'5': 62, u'4': 3, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469d2c')}
+{u'10': 280.146, u'3': 0, u'5': 62, u'4': 3, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469d2d')}
+{u'10': 570.127, u'3': 0, u'5': 64, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d2e')}
+{u'10': 570.127, u'3': 0, u'5': 64, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d2f')}
+{u'10': 141.333, u'3': 0, u'5': 64, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d30')}
+{u'10': 141.333, u'3': 0, u'5': 64, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d31')}
+{u'10': 711.46, u'3': 0, u'5': 64, u'4': 3, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469d32')}
+{u'10': 28.0833, u'3': 0, u'5': 70, u'4': 3, u'9': 33.0, u'_id': ObjectId('56f953cf4f435c2503469d33')}
+{u'10': 28.0833, u'3': 0, u'5': 70, u'4': 3, u'9': 33.0, u'_id': ObjectId('56f953cf4f435c2503469d34')}
+{u'10': 28.0833, u'3': 0, u'5': 70, u'4': 3, u'9': 33.0, u'_id': ObjectId('56f953cf4f435c2503469d35')}
+{u'10': 639.68, u'3': 0, u'5': 72, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d36')}
+{u'10': 639.68, u'3': 0, u'5': 72, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d37')}
+{u'10': 639.68, u'3': 0, u'5': 72, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469d38')}
+{u'10': 263.647, u'3': 0, u'5': 81, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d39')}
+{u'10': 263.647, u'3': 0, u'5': 81, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d3a')}
+{u'10': 263.647, u'3': 0, u'5': 81, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d3b')}
+{u'10': 683.039, u'3': 0, u'5': 82, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d3c')}
+{u'10': 683.039, u'3': 0, u'5': 82, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d3d')}
+{u'10': 683.039, u'3': 0, u'5': 82, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469d3e')}
+{u'10': 509.228, u'3': 0, u'5': 83, u'4': 3, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469d3f')}
+{u'10': 509.228, u'3': 0, u'5': 83, u'4': 3, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469d40')}
+{u'10': 509.228, u'3': 0, u'5': 83, u'4': 3, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469d41')}
+{u'10': 665.361, u'3': 0, u'5': 84, u'4': 3, u'9': 31.0, u'_id': ObjectId('56f953cf4f435c2503469d42')}
+{u'10': 665.361, u'3': 0, u'5': 84, u'4': 3, u'9': 31.0, u'_id': ObjectId('56f953cf4f435c2503469d43')}
+{u'10': 665.361, u'3': 0, u'5': 84, u'4': 3, u'9': 31.0, u'_id': ObjectId('56f953cf4f435c2503469d44')}
+{u'10': 628.627, u'3': 0, u'5': 87, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d45')}
+{u'10': 628.627, u'3': 0, u'5': 87, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d46')}
+{u'10': 628.627, u'3': 0, u'5': 87, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d47')}
+{u'10': 829.145, u'3': 0, u'5': 88, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d48')}
+{u'10': 829.145, u'3': 0, u'5': 88, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d49')}
+{u'10': 829.145, u'3': 0, u'5': 88, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469d4a')}
+{u'10': 11.2129, u'3': 0, u'5': 93, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d4b')}
+{u'10': 11.2129, u'3': 0, u'5': 93, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d4c')}
+{u'10': 11.2129, u'3': 0, u'5': 93, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d4d')}
+{u'10': 745.338, u'3': 0, u'5': 98, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d4e')}
+{u'10': 745.338, u'3': 0, u'5': 98, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d4f')}
+{u'10': 745.338, u'3': 0, u'5': 98, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469d50')}
+{u'10': 874.714, u'3': 0, u'5': 99, u'4': 3, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469d51')}
+{u'10': 874.714, u'3': 0, u'5': 99, u'4': 3, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469d52')}
+{u'10': 874.714, u'3': 0, u'5': 99, u'4': 3, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469d53')}
+{u'9': 0.0, u'10': 857.03, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469df9')}
+{u'9': 2.0, u'10': 383.997, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469dfa')}
+{u'9': 1.0, u'10': 570.127, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469dfb')}
+{u'9': 3.0, u'10': 1314.786, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469dfc')}
+{u'9': 3.0, u'10': 754.418, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469dfd')}
+{u'9': 0.0, u'10': 406.81, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469dfe')}
+{u'9': 0.0, u'10': 834.134, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469dff')}
+{u'9': 1.0, u'10': 829.145, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e00')}
+{u'9': 3.0, u'10': 939.747, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e01')}
+{u'9': 0.0, u'10': 874.714, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e02')}
+{u'9': 2.0, u'10': 263.647, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e03')}
+{u'9': 15.0, u'10': 8028.555, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e04')}
+{u'9': 38.0, u'10': 909.528, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e05')}
+{u'9': 38.0, u'10': 909.528, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e06')}
+{u'9': 10.0, u'10': 1580.335, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e07')}
+{u'9': 4.0, u'10': 972.67, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e08')}
+{u'9': 4.0, u'10': 509.228, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e09')}
+{u'9': 5.0, u'10': 634.594, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e0a')}
+{u'9': 5.0, u'10': 11.2129, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e0b')}
+{u'9': 12.0, u'10': 562.587, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e0c')}
+{u'9': 40.0, u'10': 4270.6269, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e0d')}
+{u'9': 31.0, u'10': 1494.779, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e0e')}
+{u'9': 10.0, u'10': 227.891, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e0f')}
+{u'9': 19.0, u'10': 935.443, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e10')}
+{u'9': 10.0, u'10': 834.462, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e11')}
+{u'9': 11.0, u'10': 280.146, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e12')}
+{u'9': 20.0, u'10': 1218.454, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e13')}
+{u'9': 8.0, u'10': 544.978, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e14')}
+{u'9': 109.0, u'10': 5536.153, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e15')}
+{u'9': 18.0, u'10': 643.338, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e16')}
+{u'9': 18.0, u'10': 643.338, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e17')}
+{u'9': 29.0, u'10': 350.717, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e18')}
+{u'9': 31.0, u'10': 665.361, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e19')}
+{u'9': 28.0, u'10': 988.15, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e1a')}
+{u'9': 88.0, u'10': 2004.228, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e1b')}
+{u'9': 33.0, u'10': 28.0833, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e1c')}
+{u'9': 33.0, u'10': 28.0833, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e1d')}
+{u'9': 341.0, u'10': 21420.5122, u'3': 0, u'_id': ObjectId('56f953cf4f435c2503469e1e')}
+{u'10': 199.841, u'3': 0, u'5': 1, u'4': 1, u'9': 7.0, u'_id': ObjectId('56f953cf4f435c2503469f85')}
+{u'10': 199.841, u'3': 0, u'5': 1, u'4': 1, u'9': 7.0, u'_id': ObjectId('56f953cf4f435c2503469f86')}
+{u'10': 199.841, u'3': 0, u'5': 1, u'4': 1, u'9': 7.0, u'_id': ObjectId('56f953cf4f435c2503469f87')}
+{u'10': 834.134, u'3': 0, u'5': 10, u'4': 1, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469f88')}
+{u'10': 834.134, u'3': 0, u'5': 10, u'4': 1, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469f89')}
+{u'10': 834.134, u'3': 0, u'5': 10, u'4': 1, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469f8a')}
+{u'10': 578.774, u'3': 0, u'5': 11, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f8b')}
+{u'10': 578.774, u'3': 0, u'5': 11, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f8c')}
+{u'10': 578.774, u'3': 0, u'5': 11, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f8d')}
+{u'10': 887.405, u'3': 0, u'5': 15, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f8e')}
+{u'10': 887.405, u'3': 0, u'5': 15, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f8f')}
+{u'10': 887.405, u'3': 0, u'5': 15, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f90')}
+{u'10': 988.15, u'3': 0, u'5': 18, u'4': 1, u'9': 28.0, u'_id': ObjectId('56f953cf4f435c2503469f91')}
+{u'10': 988.15, u'3': 0, u'5': 18, u'4': 1, u'9': 28.0, u'_id': ObjectId('56f953cf4f435c2503469f92')}
+{u'10': 988.15, u'3': 0, u'5': 18, u'4': 1, u'9': 28.0, u'_id': ObjectId('56f953cf4f435c2503469f93')}
+{u'10': 383.997, u'3': 0, u'5': 34, u'4': 1, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469f94')}
+{u'10': 383.997, u'3': 0, u'5': 34, u'4': 1, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469f95')}
+{u'10': 383.997, u'3': 0, u'5': 34, u'4': 1, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469f96')}
+{u'10': 490.775, u'3': 0, u'5': 36, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f97')}
+{u'10': 490.775, u'3': 0, u'5': 36, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f98')}
+{u'10': 490.775, u'3': 0, u'5': 36, u'4': 1, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469f99')}
+{u'10': 634.594, u'3': 0, u'5': 39, u'4': 1, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469f9a')}
+{u'10': 634.594, u'3': 0, u'5': 39, u'4': 1, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469f9b')}
+{u'10': 634.594, u'3': 0, u'5': 39, u'4': 1, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469f9c')}
+{u'10': 754.418, u'3': 0, u'5': 42, u'4': 1, u'9': 3.0, u'_id': ObjectId('56f953cf4f435c2503469f9d')}
+{u'10': 754.418, u'3': 0, u'5': 42, u'4': 1, u'9': 3.0, u'_id': ObjectId('56f953cf4f435c2503469f9e')}
+{u'10': 754.418, u'3': 0, u'5': 42, u'4': 1, u'9': 3.0, u'_id': ObjectId('56f953cf4f435c2503469f9f')}
+{u'10': 794.11, u'3': 0, u'5': 47, u'4': 1, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fa0')}
+{u'10': 794.11, u'3': 0, u'5': 47, u'4': 1, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fa1')}
+{u'10': 794.11, u'3': 0, u'5': 47, u'4': 1, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fa2')}
+{u'10': 643.338, u'3': 0, u'5': 50, u'4': 1, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469fa3')}
+{u'10': 643.338, u'3': 0, u'5': 50, u'4': 1, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469fa4')}
+{u'10': 643.338, u'3': 0, u'5': 50, u'4': 1, u'9': 18.0, u'_id': ObjectId('56f953cf4f435c2503469fa5')}
+{u'10': 116.599, u'3': 0, u'5': 51, u'4': 2, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fa6')}
+{u'10': 116.599, u'3': 0, u'5': 51, u'4': 2, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fa7')}
+{u'10': 116.599, u'3': 0, u'5': 51, u'4': 2, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fa8')}
+{u'10': 362.746, u'3': 0, u'5': 52, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fa9')}
+{u'10': 362.746, u'3': 0, u'5': 52, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469faa')}
+{u'10': 362.746, u'3': 0, u'5': 52, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fab')}
+{u'10': 406.81, u'3': 0, u'5': 53, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469fac')}
+{u'10': 406.81, u'3': 0, u'5': 53, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469fad')}
+{u'10': 406.81, u'3': 0, u'5': 53, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469fae')}
+{u'10': 686.159, u'3': 0, u'5': 53, u'4': 2, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469faf')}
+{u'10': 686.159, u'3': 0, u'5': 53, u'4': 2, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fb0')}
+{u'10': 686.159, u'3': 0, u'5': 53, u'4': 2, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fb1')}
+{u'10': 350.717, u'3': 0, u'5': 55, u'4': 2, u'9': 29.0, u'_id': ObjectId('56f953cf4f435c2503469fb2')}
+{u'10': 350.717, u'3': 0, u'5': 55, u'4': 2, u'9': 29.0, u'_id': ObjectId('56f953cf4f435c2503469fb3')}
+{u'10': 350.717, u'3': 0, u'5': 55, u'4': 2, u'9': 29.0, u'_id': ObjectId('56f953cf4f435c2503469fb4')}
+{u'10': 834.997, u'3': 0, u'5': 56, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fb5')}
+{u'10': 834.997, u'3': 0, u'5': 56, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fb6')}
+{u'10': 834.997, u'3': 0, u'5': 56, u'4': 2, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fb7')}
+{u'10': 909.528, u'3': 0, u'5': 56, u'4': 2, u'9': 38.0, u'_id': ObjectId('56f953cf4f435c2503469fb8')}
+{u'10': 909.528, u'3': 0, u'5': 56, u'4': 2, u'9': 38.0, u'_id': ObjectId('56f953cf4f435c2503469fb9')}
+{u'10': 909.528, u'3': 0, u'5': 56, u'4': 2, u'9': 38.0, u'_id': ObjectId('56f953cf4f435c2503469fba')}
+{u'10': 544.978, u'3': 0, u'5': 57, u'4': 2, u'9': 8.0, u'_id': ObjectId('56f953cf4f435c2503469fbb')}
+{u'10': 544.978, u'3': 0, u'5': 57, u'4': 2, u'9': 8.0, u'_id': ObjectId('56f953cf4f435c2503469fbc')}
+{u'10': 544.978, u'3': 0, u'5': 57, u'4': 2, u'9': 8.0, u'_id': ObjectId('56f953cf4f435c2503469fbd')}
+{u'10': 834.462, u'3': 0, u'5': 57, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fbe')}
+{u'10': 834.462, u'3': 0, u'5': 57, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fbf')}
+{u'10': 834.462, u'3': 0, u'5': 57, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fc0')}
+{u'10': 857.03, u'3': 0, u'5': 58, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469fc1')}
+{u'10': 857.03, u'3': 0, u'5': 58, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469fc2')}
+{u'10': 857.03, u'3': 0, u'5': 58, u'4': 2, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469fc3')}
+{u'10': 227.891, u'3': 0, u'5': 58, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fc4')}
+{u'10': 227.891, u'3': 0, u'5': 58, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fc5')}
+{u'10': 227.891, u'3': 0, u'5': 58, u'4': 2, u'9': 10.0, u'_id': ObjectId('56f953cf4f435c2503469fc6')}
+{u'10': 972.67, u'3': 0, u'5': 59, u'4': 2, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469fc7')}
+{u'10': 972.67, u'3': 0, u'5': 59, u'4': 2, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469fc8')}
+{u'10': 972.67, u'3': 0, u'5': 59, u'4': 2, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469fc9')}
+{u'10': 256.708, u'3': 0, u'5': 59, u'4': 2, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fca')}
+{u'10': 256.708, u'3': 0, u'5': 59, u'4': 2, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fcb')}
+{u'10': 256.708, u'3': 0, u'5': 59, u'4': 2, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fcc')}
+{u'10': 280.146, u'3': 0, u'5': 62, u'4': 3, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469fcd')}
+{u'10': 280.146, u'3': 0, u'5': 62, u'4': 3, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469fce')}
+{u'10': 280.146, u'3': 0, u'5': 62, u'4': 3, u'9': 11.0, u'_id': ObjectId('56f953cf4f435c2503469fcf')}
+{u'10': 141.333, u'3': 0, u'5': 64, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fd0')}
+{u'10': 141.333, u'3': 0, u'5': 64, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fd1')}
+{u'10': 141.333, u'3': 0, u'5': 64, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fd2')}
+{u'10': 570.127, u'3': 0, u'5': 64, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fd3')}
+{u'10': 570.127, u'3': 0, u'5': 64, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fd4')}
+{u'10': 570.127, u'3': 0, u'5': 64, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fd5')}
+{u'10': 28.0833, u'3': 0, u'5': 70, u'4': 3, u'9': 33.0, u'_id': ObjectId('56f953cf4f435c2503469fd6')}
+{u'10': 28.0833, u'3': 0, u'5': 70, u'4': 3, u'9': 33.0, u'_id': ObjectId('56f953cf4f435c2503469fd7')}
+{u'10': 28.0833, u'3': 0, u'5': 70, u'4': 3, u'9': 33.0, u'_id': ObjectId('56f953cf4f435c2503469fd8')}
+{u'10': 639.68, u'3': 0, u'5': 72, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fd9')}
+{u'10': 639.68, u'3': 0, u'5': 72, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fda')}
+{u'10': 639.68, u'3': 0, u'5': 72, u'4': 3, u'9': 9.0, u'_id': ObjectId('56f953cf4f435c2503469fdb')}
+{u'10': 263.647, u'3': 0, u'5': 81, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fdc')}
+{u'10': 263.647, u'3': 0, u'5': 81, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fdd')}
+{u'10': 263.647, u'3': 0, u'5': 81, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fde')}
+{u'10': 683.039, u'3': 0, u'5': 82, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fdf')}
+{u'10': 683.039, u'3': 0, u'5': 82, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fe0')}
+{u'10': 683.039, u'3': 0, u'5': 82, u'4': 3, u'9': 2.0, u'_id': ObjectId('56f953cf4f435c2503469fe1')}
+{u'10': 509.228, u'3': 0, u'5': 83, u'4': 3, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469fe2')}
+{u'10': 509.228, u'3': 0, u'5': 83, u'4': 3, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469fe3')}
+{u'10': 509.228, u'3': 0, u'5': 83, u'4': 3, u'9': 4.0, u'_id': ObjectId('56f953cf4f435c2503469fe4')}
+{u'10': 665.361, u'3': 0, u'5': 84, u'4': 3, u'9': 31.0, u'_id': ObjectId('56f953cf4f435c2503469fe5')}
+{u'10': 665.361, u'3': 0, u'5': 84, u'4': 3, u'9': 31.0, u'_id': ObjectId('56f953cf4f435c2503469fe6')}
+{u'10': 665.361, u'3': 0, u'5': 84, u'4': 3, u'9': 31.0, u'_id': ObjectId('56f953cf4f435c2503469fe7')}
+{u'10': 628.627, u'3': 0, u'5': 87, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fe8')}
+{u'10': 628.627, u'3': 0, u'5': 87, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fe9')}
+{u'10': 628.627, u'3': 0, u'5': 87, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fea')}
+{u'10': 829.145, u'3': 0, u'5': 88, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469feb')}
+{u'10': 829.145, u'3': 0, u'5': 88, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fec')}
+{u'10': 829.145, u'3': 0, u'5': 88, u'4': 3, u'9': 1.0, u'_id': ObjectId('56f953cf4f435c2503469fed')}
+{u'10': 11.2129, u'3': 0, u'5': 93, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fee')}
+{u'10': 11.2129, u'3': 0, u'5': 93, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469fef')}
+{u'10': 11.2129, u'3': 0, u'5': 93, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469ff0')}
+{u'10': 745.338, u'3': 0, u'5': 98, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469ff1')}
+{u'10': 745.338, u'3': 0, u'5': 98, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469ff2')}
+{u'10': 745.338, u'3': 0, u'5': 98, u'4': 3, u'9': 5.0, u'_id': ObjectId('56f953cf4f435c2503469ff3')}
+{u'10': 874.714, u'3': 0, u'5': 99, u'4': 3, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469ff4')}
+{u'10': 874.714, u'3': 0, u'5': 99, u'4': 3, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469ff5')}
+{u'10': 874.714, u'3': 0, u'5': 99, u'4': 3, u'9': 0.0, u'_id': ObjectId('56f953cf4f435c2503469ff6')}
+{u'9': 2.0, u'10': 383.997, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b0'), u'4': 1}
+{u'9': 3.0, u'10': 754.418, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b1'), u'4': 1}
+{u'9': 0.0, u'10': 834.134, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b2'), u'4': 1}
+{u'9': 5.0, u'10': 1972.549, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b3'), u'4': 1}
+{u'9': 5.0, u'10': 634.594, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b4'), u'4': 1}
+{u'9': 7.0, u'10': 199.841, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b5'), u'4': 1}
+{u'9': 12.0, u'10': 834.435, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b6'), u'4': 1}
+{u'9': 22.0, u'10': 1378.18, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b7'), u'4': 1}
+{u'9': 10.0, u'10': 794.11, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b8'), u'4': 1}
+{u'9': 11.0, u'10': 578.774, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0b9'), u'4': 1}
+{u'9': 43.0, u'10': 2751.064, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0ba'), u'4': 1}
+{u'9': 18.0, u'10': 643.338, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0bb'), u'4': 1}
+{u'9': 18.0, u'10': 643.338, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0bc'), u'4': 1}
+{u'9': 28.0, u'10': 988.15, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0bd'), u'4': 1}
+{u'9': 28.0, u'10': 988.15, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0be'), u'4': 1}
+{u'9': 106.0, u'10': 7189.536, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0bf'), u'4': 1}
+{u'9': 0.0, u'10': 857.03, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c0'), u'4': 2}
+{u'9': 2.0, u'10': 686.159, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c1'), u'4': 2}
+{u'9': 0.0, u'10': 406.81, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c2'), u'4': 2}
+{u'9': 1.0, u'10': 256.708, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c3'), u'4': 2}
+{u'9': 3.0, u'10': 2206.707, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c4'), u'4': 2}
+{u'9': 38.0, u'10': 909.528, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c5'), u'4': 2}
+{u'9': 38.0, u'10': 909.528, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c6'), u'4': 2}
+{u'9': 5.0, u'10': 834.997, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c7'), u'4': 2}
+{u'9': 4.0, u'10': 972.67, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c8'), u'4': 2}
+{u'9': 5.0, u'10': 362.746, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0c9'), u'4': 2}
+{u'9': 14.0, u'10': 2170.413, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0ca'), u'4': 2}
+{u'9': 9.0, u'10': 116.599, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0cb'), u'4': 2}
+{u'9': 10.0, u'10': 227.891, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0cc'), u'4': 2}
+{u'9': 10.0, u'10': 834.462, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0cd'), u'4': 2}
+{u'9': 8.0, u'10': 544.978, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0ce'), u'4': 2}
+{u'9': 37.0, u'10': 1723.93, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0cf'), u'4': 2}
+{u'9': 29.0, u'10': 350.717, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d0'), u'4': 2}
+{u'9': 29.0, u'10': 350.717, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d1'), u'4': 2}
+{u'9': 121.0, u'10': 7361.295, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d2'), u'4': 2}
+{u'9': 1.0, u'10': 570.127, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d3'), u'4': 3}
+{u'9': 1.0, u'10': 628.627, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d4'), u'4': 3}
+{u'9': 1.0, u'10': 829.145, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d5'), u'4': 3}
+{u'9': 2.0, u'10': 683.039, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d6'), u'4': 3}
+{u'9': 0.0, u'10': 874.714, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d7'), u'4': 3}
+{u'9': 2.0, u'10': 263.647, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d8'), u'4': 3}
+{u'9': 7.0, u'10': 3849.299, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0d9'), u'4': 3}
+{u'9': 5.0, u'10': 745.338, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0da'), u'4': 3}
+{u'9': 4.0, u'10': 509.228, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0db'), u'4': 3}
+{u'9': 5.0, u'10': 11.2129, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0dc'), u'4': 3}
+{u'9': 14.0, u'10': 1265.7789, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0dd'), u'4': 3}
+{u'9': 9.0, u'10': 141.333, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0de'), u'4': 3}
+{u'9': 11.0, u'10': 280.146, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0df'), u'4': 3}
+{u'9': 9.0, u'10': 639.68, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e0'), u'4': 3}
+{u'9': 29.0, u'10': 1061.159, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e1'), u'4': 3}
+{u'9': 31.0, u'10': 665.361, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e2'), u'4': 3}
+{u'9': 31.0, u'10': 665.361, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e3'), u'4': 3}
+{u'9': 33.0, u'10': 28.0833, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e4'), u'4': 3}
+{u'9': 33.0, u'10': 28.0833, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e5'), u'4': 3}
+{u'9': 114.0, u'10': 6869.6812, u'3': 0, u'_id': ObjectId('56f953cf4f435c250346a0e6'), u'4': 3}
