@@ -202,3 +202,13 @@ if __name__ == '__main__':
 		'id_col': '', 
 		'col_info': '0 rid:记录ID ［忽略字段］\n1 year:年份 ［层级A字段］ \n2 month:月份 ［层级A字段］ \n3 day:日期 ［层级A字段］ \n4 sales:该网站单日销量交易额(万元) ［度量字段］'}
 	query_table(sys.argv[1])
+
+
+
+
+
+
+
+
+
+
