@@ -181,11 +181,12 @@ def top_down(data):
 				#uidstr = ' '.join(uidset[lastkey[cur_len]])
 				#valuestr = ' '.join(valueset[lastkey[cur_len]])
 				#yield "%s\t%s|%s" % (lastkey[cur_len], uidstr, valuestr)
-				vv = [[float(v) for v in vs.split()] for vs in valueset[lastkey[cur_len]]]
+				vv = [[v for v in vs.split()] for vs in valueset[lastkey[cur_len]]]
 				vv_t = map(list, zip(*vv)) # transform
-				v_sum = [str(sum(vt)) for vt in vv_t]
-				valuestr = ' '.join(v_sum)
-				yield "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
+				#v_sum = [str(sum(vt)) for vt in vv_t]
+				v_set = ['&'.join(vt) for vt in vv_t]
+				valuestr = '*'.join(v_set)
+				yield "%s\t%s,%s" % (lastkey[cur_len], ' '.join(uidset[lastkey[cur_len]]), valuestr)
 				#post = "%s\t%d %s" % (lastkey[cur_len], len(uidset[lastkey[cur_len]]), valuestr)
 				#db_insert(shared_table.value, post, v_col)
 				uidset.pop(lastkey[cur_len])
